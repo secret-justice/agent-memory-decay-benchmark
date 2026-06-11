@@ -1,0 +1,319 @@
+{
+  "M1a_GateQuality": {
+    "total": 40,
+    "passed": 38,
+    "accuracy": 0.95,
+    "target_met": true,
+    "details": [
+      [
+        "rule_SSH port config",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_SSH port config",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_Redis cache opt",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_Redis cache opt",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_Docker deployme",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_Docker deployme",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_MySQL slow quer",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_MySQL slow quer",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_Nginx reverse p",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_Nginx reverse p",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_Python memory l",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_Python memory l",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_Kubernetes pod ",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_Kubernetes pod ",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_JWT token expir",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_JWT token expir",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_SSL certificate",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_SSL certificate",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_CI/CD pipeline ",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_CI/CD pipeline ",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_check server st",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_check server st",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_list running pr",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_list running pr",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_check disk usag",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_check disk usag",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_view recent log",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_view recent log",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_check network c",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_check network c",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_SSH port config",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_SSH port config",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_Redis cache opt",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_Redis cache opt",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_Docker deployme",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "lnn_Docker deployme",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_help",
+        false,
+        "dec=skip exp=retrieve"
+      ],
+      [
+        "lnn_help",
+        true,
+        "dec=retrieve exp=retrieve"
+      ],
+      [
+        "rule_status",
+        false,
+        "dec=skip exp=retrieve"
+      ],
+      [
+        "lnn_status",
+        true,
+        "dec=retrieve exp=retrieve"
+      ]
+    ]
+  },
+  "M1b_GateLatency": {
+    "total": 4,
+    "passed": 3,
+    "accuracy": 0.75,
+    "target_met": true,
+    "details": [
+      [
+        "rule_p95",
+        true,
+        "P95=0.00ms"
+      ],
+      [
+        "rule_throughput",
+        true,
+        "99884 ops/s"
+      ],
+      [
+        "lnn_p95",
+        true,
+        "P95=1.00ms"
+      ],
+      [
+        "lnn_vs_rule",
+        false,
+        "lnn=1.00 rule=0.00ms"
+      ]
+    ]
+  },
+  "M1c_ForgettingAblation": {
+    "total": 8,
+    "passed": 8,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "ret_mem_ssh",
+        true,
+        "C=1.00 A=1.00 B=1.00"
+      ],
+      [
+        "ret_mem_redis",
+        true,
+        "C=1.00 A=1.00 B=1.00"
+      ],
+      [
+        "ret_mem_log",
+        true,
+        "C=1.00 A=1.00 B=1.00"
+      ],
+      [
+        "ret_mem_api",
+        true,
+        "C=1.00 A=1.00 B=1.00"
+      ],
+      [
+        "ret_mem_cache",
+        true,
+        "C=1.00 A=1.00 B=1.00"
+      ],
+      [
+        "ret_mem_debug",
+        true,
+        "C=1.00 A=1.00 B=1.00"
+      ],
+      [
+        "ret_mem_test",
+        true,
+        "C=1.00 A=1.00 B=1.00"
+      ],
+      [
+        "more_forget_B",
+        true,
+        "A=0 B=0"
+      ]
+    ]
+  },
+  "M1d_Competition": {
+    "total": 5,
+    "passed": 4,
+    "accuracy": 0.8,
+    "target_met": true,
+    "details": [
+      [
+        "pref_acc",
+        true,
+        "100% (10/10)"
+      ],
+      [
+        "ret_acc",
+        true,
+        "100% (10/10)"
+      ],
+      [
+        "conflict_detect",
+        true,
+        "conflict=True"
+      ],
+      [
+        "no_false_conflict",
+        false,
+        "false=True"
+      ],
+      [
+        "latency_p95",
+        true,
+        "P95=13.5ms"
+      ]
+    ]
+  }
+}

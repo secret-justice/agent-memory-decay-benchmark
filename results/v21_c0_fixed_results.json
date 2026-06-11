@@ -1,0 +1,295 @@
+{
+  "exp1_regression": {
+    "personaChat": {
+      "cct_lnn": {
+        "mse": 0.0399,
+        "spearman_r": 0.031
+      },
+      "ltc": {
+        "mse": 0.0373,
+        "spearman_r": -0.016
+      },
+      "gru": {
+        "mse": 0.0371,
+        "spearman_r": 0.09
+      },
+      "gru_time": {
+        "mse": 0.0366,
+        "spearman_r": 0.091
+      },
+      "neural_ode": {
+        "mse": 0.0369,
+        "spearman_r": -0.031
+      },
+      "cfc": {
+        "mse": 0.0387,
+        "spearman_r": 0.062
+      },
+      "param_expdecay": {
+        "mse": 0.0386,
+        "spearman_r": 0.112
+      },
+      "transformer": {
+        "mse": 0.0374,
+        "spearman_r": 0.081
+      }
+    },
+    "lpt": {
+      "cct_lnn": {
+        "mse": 0.0696,
+        "spearman_r": 0.0
+      },
+      "ltc": {
+        "mse": 0.072,
+        "spearman_r": 0.0
+      },
+      "gru": {
+        "mse": 0.07,
+        "spearman_r": 0.0
+      },
+      "gru_time": {
+        "mse": 0.0721,
+        "spearman_r": 0.0
+      },
+      "neural_ode": {
+        "mse": 0.069,
+        "spearman_r": 0.0
+      },
+      "cfc": {
+        "mse": 0.072,
+        "spearman_r": 0.0
+      },
+      "param_expdecay": {
+        "mse": 0.0704,
+        "spearman_r": 0.0
+      },
+      "transformer": {
+        "mse": 0.0722,
+        "spearman_r": 0.0
+      }
+    }
+  },
+  "exp2_weighted_regression": {
+    "personaChat": {
+      "cct_lnn": {
+        "mse": 0.0399,
+        "spearman_r": 0.031,
+        "top20_overlap": 0.28
+      },
+      "ltc": {
+        "mse": 0.0373,
+        "spearman_r": -0.016,
+        "top20_overlap": 0.21
+      },
+      "gru": {
+        "mse": 0.0371,
+        "spearman_r": 0.09,
+        "top20_overlap": 0.24
+      },
+      "gru_time": {
+        "mse": 0.0366,
+        "spearman_r": 0.091,
+        "top20_overlap": 0.23
+      },
+      "neural_ode": {
+        "mse": 0.0369,
+        "spearman_r": -0.031,
+        "top20_overlap": 0.18
+      },
+      "cfc": {
+        "mse": 0.0387,
+        "spearman_r": 0.062,
+        "top20_overlap": 0.26
+      },
+      "param_expdecay": {
+        "mse": 0.0386,
+        "spearman_r": 0.112,
+        "top20_overlap": 0.28
+      },
+      "transformer": {
+        "mse": 0.0374,
+        "spearman_r": 0.081,
+        "top20_overlap": 0.24
+      }
+    },
+    "lpt": {}
+  },
+  "exp3_ranking": {
+    "personaChat": {
+      "cct_lnn": {
+        "ndcg5": 0.5359593489385376,
+        "ndcg5_std": 0.010521451486017292,
+        "mrr": 0.35466269841269843,
+        "mrr_std": 0.02203989563403337,
+        "kendall_tau": 0.002488480738426902,
+        "kendall_tau_std": 0.04149202210559352,
+        "n_params": 4594
+      },
+      "ltc": {
+        "ndcg5": 0.5847650426779601,
+        "ndcg5_std": 0.02382839437675358,
+        "mrr": 0.41457837301587297,
+        "mrr_std": 0.021336263419353674,
+        "kendall_tau": 0.08250109489012437,
+        "kendall_tau_std": 0.04978474884799525,
+        "n_params": 3954
+      },
+      "gru": {
+        "ndcg5": 0.6041585502394037,
+        "ndcg5_std": 0.01274020332359954,
+        "mrr": 0.5432242063492064,
+        "mrr_std": 0.008740177895234028,
+        "kendall_tau": 0.18440000055614977,
+        "kendall_tau_std": 0.016371243371702007,
+        "n_params": 5282
+      },
+      "gru_time": {
+        "ndcg5": 0.603396633960014,
+        "ndcg5_std": 0.002568577598665996,
+        "mrr": 0.5588492063492064,
+        "mrr_std": 0.015540357158614,
+        "kendall_tau": 0.1956040648774896,
+        "kendall_tau_std": 0.008072249204306199,
+        "n_params": 5410
+      },
+      "neural_ode": {
+        "ndcg5": 0.6163424157417904,
+        "ndcg5_std": 0.008606966313997141,
+        "mrr": 0.5533730158730158,
+        "mrr_std": 0.026029700576578375,
+        "kendall_tau": 0.1953316706688998,
+        "kendall_tau_std": 0.02360286977073706,
+        "n_params": 3459
+      },
+      "cfc": {
+        "ndcg5": 0.5858462770882166,
+        "ndcg5_std": 0.026871267657452232,
+        "mrr": 0.5090079365079365,
+        "mrr_std": 0.05719410412497496,
+        "kendall_tau": 0.125108731892879,
+        "kendall_tau_std": 0.07539812870938291,
+        "n_params": 3954
+      },
+      "param_expdecay": {
+        "ndcg5": 0.5334675796948496,
+        "ndcg5_std": 0.005822683312309206,
+        "mrr": 0.3240327380952381,
+        "mrr_std": 0.010439261209643837,
+        "kendall_tau": -0.04838903608521522,
+        "kendall_tau_std": 0.021086117363886162,
+        "n_params": 2394
+      },
+      "transformer": {
+        "ndcg5": 0.5464561351286079,
+        "ndcg5_std": 0.02056134766246695,
+        "mrr": 0.35176587301587303,
+        "mrr_std": 0.01643127751417006,
+        "kendall_tau": -0.016221407654725926,
+        "kendall_tau_std": 0.005732906900292279,
+        "n_params": 4610
+      }
+    },
+    "lpt": {
+      "cct_lnn": {
+        "ndcg5": 0.48604122890739104,
+        "ndcg5_std": 0.007647430985211988,
+        "mrr": 0.3464484126984127,
+        "mrr_std": 0.005240512600191703,
+        "kendall_tau": 0.013191611240879834,
+        "kendall_tau_std": 0.01654871242930781
+      },
+      "ltc": {
+        "ndcg5": 0.47116893623070416,
+        "ndcg5_std": 0.00904943524539661,
+        "mrr": 0.35465525793650793,
+        "mrr_std": 0.006233207828901411,
+        "kendall_tau": -0.016200811053091874,
+        "kendall_tau_std": 0.006683479414403661
+      },
+      "gru": {
+        "ndcg5": 0.4825090826507367,
+        "ndcg5_std": 0.011614089416757628,
+        "mrr": 0.3571478174603174,
+        "mrr_std": 0.004686792642102026,
+        "kendall_tau": 0.00336376152261098,
+        "kendall_tau_std": 0.014010288134747452
+      },
+      "gru_time": {
+        "ndcg5": 0.4704819189323331,
+        "ndcg5_std": 0.033618433015924334,
+        "mrr": 0.3292906746031746,
+        "mrr_std": 0.0321382078485821,
+        "kendall_tau": -0.01168712735250023,
+        "kendall_tau_std": 0.03317908164563966
+      },
+      "neural_ode": {
+        "ndcg5": 0.5010398800760507,
+        "ndcg5_std": 0.002552054691927214,
+        "mrr": 0.36614087301587306,
+        "mrr_std": 0.01805450350153178,
+        "kendall_tau": 0.018786381415668085,
+        "kendall_tau_std": 0.009609493359103018
+      },
+      "cfc": {
+        "ndcg5": 0.4862506866180299,
+        "ndcg5_std": 0.01917766501920789,
+        "mrr": 0.3569419642857143,
+        "mrr_std": 0.013092719646446913,
+        "kendall_tau": 0.0007057614359806475,
+        "kendall_tau_std": 0.01064801034705363
+      },
+      "param_expdecay": {
+        "ndcg5": 0.4796536603687042,
+        "ndcg5_std": 0.012594529087686789,
+        "mrr": 0.3463417658730159,
+        "mrr_std": 0.024727612148199997,
+        "kendall_tau": -0.004706911848784289,
+        "kendall_tau_std": 0.026745697030106687
+      },
+      "transformer": {
+        "ndcg5": 0.4805484877422799,
+        "ndcg5_std": 0.009767481745877236,
+        "mrr": 0.36727182539682546,
+        "mrr_std": 0.011599372802045161,
+        "kendall_tau": 0.008769330045264784,
+        "kendall_tau_std": 0.010002880903935082
+      }
+    }
+  },
+  "config": {
+    "HD": 16,
+    "SEEDS": [
+      42,
+      123,
+      256
+    ],
+    "EPOCHS": 15,
+    "VARIANTS": [
+      "cct_lnn",
+      "ltc",
+      "gru",
+      "gru_time",
+      "neural_ode",
+      "cfc",
+      "param_expdecay",
+      "transformer"
+    ],
+    "exp1_note": "Standard MSE regression, per-sequence final score (5 seeds)",
+    "exp2_note": "Focal MSE gamma=2, upweights hard examples (5 seeds)",
+    "exp3_note": "Per-timestep MSE on relevance + learned scorer, 15 epochs (3 seeds)"
+  },
+  "target_distribution": {
+    "personaChat": {
+      "mean": 0.2747008204460144,
+      "std": 0.2841397225856781,
+      "min": 0.0,
+      "max": 0.8668388724327087
+    },
+    "lpt": {
+      "mean": 0.1673561930656433,
+      "std": 0.2500528395175934,
+      "min": 0.0,
+      "max": 0.821273684501648
+    }
+  }
+}
