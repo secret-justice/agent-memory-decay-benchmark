@@ -1,14 +1,17 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 title: "Agent Memory Decay: Theoretical Framework and Empirical Benchmark for Continuous-Time vs Discrete Models in LLM Agent Memory Systems"
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
-  - family-names: "secret-justice"
-    given-names: "secret-justice"
-    affiliation: "PLACEHOLDER University"
+  - family-names: "Wang"
+    given-names: "HanBo"
+    affiliation: "Department of Computer Science, East China Jiaotong University, Nanchang, China"
+  - family-names: "Song"
+    given-names: "JiaQi"
+    affiliation: "School of Information Science, Chongqing University of Posts and Telecommunications, Chongqing, China"
 license: MIT
 repository-code: "https://github.com/secret-justice/agent-memory-decay-benchmark"
-doi: "10.5281/zenodo.PLACEHOLDER"
+doi: "10.5281/zenodo.20650214"
 date-released: "2026-06-12"
 keywords:
   - agent memory

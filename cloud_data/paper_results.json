@@ -1,0 +1,114 @@
+[
+  [
+    "Exp1_Ablation",
+    {
+      "baseline_mrr": 0.6516666666666666,
+      "A_no_weight": 0.6516666666666666,
+      "B_short_only": 0.6516666666666666,
+      "C_long_only": 0.6516666666666666,
+      "D_no_category": 0.6516666666666666,
+      "dur_ms": 2
+    }
+  ],
+  [
+    "Exp2_Tiers",
+    {
+      "best": "mid+long",
+      "best_mrr": 0.6975,
+      "worst_mrr": 0.6516666666666666,
+      "dur_ms": 4
+    }
+  ],
+  [
+    "Exp3_Retrieval",
+    {
+      "best": "keyword",
+      "best_mrr": 0.6516666666666666,
+      "keyword_mrr": 0.6516666666666666,
+      "gain": 0.0,
+      "dur_ms": 2
+    }
+  ],
+  [
+    "Exp4_Conflict",
+    {
+      "best": "latest",
+      "best_acc": 1.0,
+      "dur_ms": 0
+    }
+  ],
+  [
+    "Exp5_Scale",
+    {
+      "scale": [
+        {
+          "sz": 10,
+          "store_ms": 0.0,
+          "search_ms": 0.09,
+          "mrr": 0.6
+        },
+        {
+          "sz": 50,
+          "store_ms": 0.0,
+          "search_ms": 0.13,
+          "mrr": 0.4
+        },
+        {
+          "sz": 100,
+          "store_ms": 0.0,
+          "search_ms": 0.19,
+          "mrr": 0.36666666666666664
+        },
+        {
+          "sz": 500,
+          "store_ms": 0.0,
+          "search_ms": 0.57,
+          "mrr": 0.0
+        },
+        {
+          "sz": 1000,
+          "store_ms": 0.0,
+          "search_ms": 1.07,
+          "mrr": 0.0
+        },
+        {
+          "sz": 5000,
+          "store_ms": 0.0,
+          "search_ms": 5.23,
+          "mrr": 0.0
+        }
+      ],
+      "dur_ms": 89
+    }
+  ],
+  [
+    "Exp6_CrossDomain",
+    {
+      "avg_same": 0.6211,
+      "avg_cross": 0.6585,
+      "gap": -0.0374,
+      "dur_ms": 3
+    }
+  ],
+  [
+    "Exp7_Robustness",
+    {
+      "base_mrr": 0.6516666666666666,
+      "noisy_mrr": 0.5341666666666666,
+      "noise_deg": 0.1175,
+      "miss_mrr": 0.5541666666666666,
+      "miss_deg": 0.0975,
+      "dur_ms": 2
+    }
+  ],
+  [
+    "Exp8_E2E",
+    {
+      "accuracy": 0.8,
+      "correct": 4,
+      "total": 5,
+      "avg_lat_ms": 0.0,
+      "dur_ms": 0
+    }
+  ]
+]

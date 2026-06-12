@@ -1,0 +1,63 @@
+{
+  "E5_gate": {
+    "RuleGate_0.5": {
+      "n": 500,
+      "p50": 0.011,
+      "p95": 0.012,
+      "p99": 0.027,
+      "mean_conf": 0.647,
+      "distribution": {
+        "retrieve": 466,
+        "skip": 34
+      }
+    },
+    "RuleGate_0.7": {
+      "n": 500,
+      "p50": 0.011,
+      "p95": 0.012,
+      "p99": 0.033,
+      "mean_conf": 0.647,
+      "distribution": {
+        "retrieve": 466,
+        "skip": 34
+      }
+    },
+    "RuleGate_0.9": {
+      "n": 500,
+      "p50": 0.011,
+      "p95": 0.012,
+      "p99": 0.062,
+      "mean_conf": 0.647,
+      "distribution": {
+        "retrieve": 466,
+        "skip": 34
+      }
+    }
+  },
+  "E6_platform": {
+    "memory_mb": 16.8,
+    "classify": {
+      "p50": 0.108,
+      "p95": 0.129
+    },
+    "search_1000": {
+      "p50": 11.65,
+      "p95": 12.99
+    },
+    "search_5000": {
+      "p50": 28.66,
+      "p95": 32.25
+    },
+    "conflict": {
+      "p50": 0.243,
+      "p95": 0.282
+    }
+  },
+  "regression": {
+    "preference": 0.733,
+    "retrieval": 1.0,
+    "latency_p95": 0.35,
+    "conflict": 0.6
+  },
+  "duration_s": 2.4
+}

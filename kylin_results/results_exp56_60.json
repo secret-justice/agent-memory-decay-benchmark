@@ -1,0 +1,422 @@
+{
+  "Exp56_FalsePositive": {
+    "total": 35,
+    "passed": 18,
+    "accuracy": 0.5143,
+    "target_met": false,
+    "details": [
+      [
+        "same_topic_0",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "same_topic_1",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "same_topic_2",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "same_topic_3",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "same_topic_4",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "same_topic_5",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "same_topic_6",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "same_topic_7",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "same_topic_8",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "same_topic_9",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "complement_0",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "complement_1",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "complement_2",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "complement_3",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "complement_4",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "synonym_0",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "synonym_1",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "synonym_2",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "synonym_3",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "synonym_4",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "real_conflict_0",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "real_conflict_1",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "real_conflict_2",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "real_conflict_3",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "real_conflict_4",
+        false,
+        "exp=True got=False"
+      ],
+      [
+        "high_sim_0",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "high_sim_1",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "high_sim_2",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "high_sim_3",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "high_sim_4",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "high_sim_5",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "high_sim_6",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "high_sim_7",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "high_sim_8",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "high_sim_9",
+        false,
+        "exp=False got=True"
+      ]
+    ]
+  },
+  "Exp57_MultiTurnPref": {
+    "total": 18,
+    "passed": 11,
+    "accuracy": 0.6111,
+    "target_met": true,
+    "details": [
+      [
+        "ctx_It was slow, go",
+        false,
+        "got=knowledge exp=preference"
+      ],
+      [
+        "ctx_PostgreSQL is c",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "ctx_Docker is the w",
+        false,
+        "got=knowledge exp=preference"
+      ],
+      [
+        "ctx_FastAPI beats F",
+        false,
+        "got=knowledge exp=preference"
+      ],
+      [
+        "ctx_Prometheus + Gr",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "ctx_SSH default por",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "ctx_Redis stores da",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "ctx_Docker uses lay",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "ctx_Git uses SHA-1 ",
+        false,
+        "got=trivial exp=knowledge"
+      ],
+      [
+        "ctx_Python 3.12 has",
+        false,
+        "got=failure exp=knowledge"
+      ],
+      [
+        "ctx_Fixed the Nginx",
+        true,
+        "got=episode exp=episode"
+      ],
+      [
+        "ctx_Ran optimize on",
+        false,
+        "got=knowledge exp=episode"
+      ],
+      [
+        "ctx_Found 3 bugs in",
+        true,
+        "got=episode exp=episode"
+      ],
+      [
+        "ctx_Deployed v2.1 t",
+        true,
+        "got=episode exp=episode"
+      ],
+      [
+        "ctx_Traced the memo",
+        true,
+        "got=episode exp=episode"
+      ],
+      [
+        "prefix_I prefer",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "prefix_The defa",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "prefix_I config",
+        false,
+        "got=knowledge exp=episode"
+      ]
+    ]
+  },
+  "Exp58_PrefEvolution": {
+    "total": 6,
+    "passed": 6,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "new_found",
+        true,
+        "has_new=True"
+      ],
+      [
+        "old_present",
+        true,
+        "has_old=True note=old_may_still_exist"
+      ],
+      [
+        "has_22",
+        true,
+        "has_22=True"
+      ],
+      [
+        "has_2222",
+        true,
+        "has_2222=True"
+      ],
+      [
+        "theme_retrieved",
+        true,
+        "n=2"
+      ],
+      [
+        "lang_retrieved",
+        true,
+        "n=5"
+      ]
+    ]
+  },
+  "Exp59_CrossDomain": {
+    "total": 12,
+    "passed": 12,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "cross_web server",
+        true,
+        "n=4"
+      ],
+      [
+        "cross_database c",
+        true,
+        "n=2"
+      ],
+      [
+        "cross_container ",
+        true,
+        "n=1"
+      ],
+      [
+        "cross_authentica",
+        true,
+        "n=5"
+      ],
+      [
+        "cross_reverse pr",
+        true,
+        "n=3"
+      ],
+      [
+        "cross_docker sec",
+        true,
+        "n=5"
+      ],
+      [
+        "cross_nginx mysq",
+        true,
+        "n=3"
+      ],
+      [
+        "cross_kubernetes",
+        true,
+        "n=4"
+      ],
+      [
+        "iso_web",
+        true,
+        "n=3"
+      ],
+      [
+        "iso_db",
+        true,
+        "n=3"
+      ],
+      [
+        "iso_devops",
+        true,
+        "n=3"
+      ],
+      [
+        "iso_security",
+        true,
+        "n=3"
+      ]
+    ]
+  },
+  "Exp60_MemPressure": {
+    "total": 5,
+    "passed": 4,
+    "accuracy": 0.8,
+    "target_met": true,
+    "details": [
+      [
+        "build_10k",
+        true,
+        "181772ms"
+      ],
+      [
+        "p95_10k",
+        false,
+        "P95=1074.6ms"
+      ],
+      [
+        "acc_SSH po",
+        true,
+        "n=10"
+      ],
+      [
+        "acc_Redis ",
+        true,
+        "n=10"
+      ],
+      [
+        "acc_Docker",
+        true,
+        "n=10"
+      ]
+    ]
+  }
+}

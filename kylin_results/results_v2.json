@@ -1,0 +1,116 @@
+[
+  [
+    "Exp9_ForgettingCurve",
+    {
+      "retentions": {
+        "s1": 1.0,
+        "s2": 1.0,
+        "m1": 1.0,
+        "l1": 1.0,
+        "l2": 1.0
+      },
+      "stability_l2": 315360000.0,
+      "stability_l1": 31536000.0,
+      "interval_effect": true,
+      "half_life_long": 21859089.486138433,
+      "half_life_short": 2495.329850015803,
+      "batch_actions": {
+        "forget": [],
+        "demote": [],
+        "promote": [
+          "s1",
+          "s2",
+          "m1",
+          "l1",
+          "l2"
+        ],
+        "refresh": []
+      },
+      "dur_ms": 0
+    }
+  ],
+  [
+    "Exp10_ZeroLLM",
+    {
+      "fact_recall": 0.8,
+      "fact_correct": 8,
+      "fact_total": 10,
+      "classification_accuracy": 0.8,
+      "test_cases": 5,
+      "dur_ms": 6
+    }
+  ],
+  [
+    "Exp11_TimeAware",
+    {
+      "query": "SSH port",
+      "bm25_top3": [
+        [
+          "old1",
+          1.3203
+        ],
+        [
+          "new1",
+          1.3203
+        ]
+      ],
+      "time_aware_top3": [
+        [
+          "new1",
+          1.5171
+        ],
+        [
+          "old1",
+          1.323
+        ]
+      ],
+      "recency_improved": true,
+      "dur_ms": 0
+    }
+  ],
+  [
+    "Exp12_DAGClosure",
+    {
+      "full_closure": [
+        "e1_ssh",
+        "e2_install",
+        "e3_config",
+        "e4_nginx",
+        "e5_deploy"
+      ],
+      "full_closure_size": 5,
+      "partial_closure": [
+        "e1_ssh",
+        "e2_install",
+        "e3_config",
+        "e4_nginx"
+      ],
+      "partial_closure_size": 4,
+      "time_validation": "pass",
+      "dur_ms": 12
+    }
+  ],
+  [
+    "Exp13_L1Snapshot",
+    {
+      "snapshot_items": 4,
+      "snapshot_has_preference": true,
+      "snapshot_has_knowledge": true,
+      "snapshot_excludes_low": true,
+      "snapshot_text_len": 234,
+      "short_snapshot_len": 65,
+      "dur_ms": 816
+    }
+  ],
+  [
+    "Exp14_Adversarial",
+    {
+      "normal_accuracy": 1.0,
+      "noise_accuracy": 0.8,
+      "adversarial_safety": 1.0,
+      "edge_case_safety": 1.0,
+      "noisy_data_recall": 1.0,
+      "dur_ms": 1
+    }
+  ]
+]

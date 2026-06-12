@@ -1,0 +1,511 @@
+{
+  "Exp29_ForgettingCurve": {
+    "total": 8,
+    "passed": 8,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "new_memory_high_retention",
+        true,
+        "R=1.0000"
+      ],
+      [
+        "old_memory_decayed",
+        true,
+        "R=0.0000"
+      ],
+      [
+        "spacing_effect",
+        true,
+        "before=3888000.00 after=315360000.00"
+      ],
+      [
+        "importance_boosts",
+        true,
+        "lo=3960.00 hi=6840.00"
+      ],
+      [
+        "scan_actions_nonempty",
+        true,
+        "counts={'forget': ['mem_old', 'mem_stale'], 'demote': [], 'promote': ['mem_new', 'mem_revisit', 'mem_lo', 'mem_hi', 'mem_fresh'], 'refresh': []}"
+      ],
+      [
+        "formula_correct",
+        true,
+        "R=0.3679 exp=0.3679"
+      ],
+      [
+        "half_life_positive",
+        true,
+        "hl=2495.3s"
+      ],
+      [
+        "stats_nonempty",
+        true,
+        "total=7"
+      ]
+    ],
+    "dur_ms": 0
+  },
+  "Exp30_MemoryFlow": {
+    "total": 10,
+    "passed": 10,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "stored_in_short",
+        true,
+        "size=1"
+      ],
+      [
+        "promote_s2m",
+        true,
+        "ok=True"
+      ],
+      [
+        "short_empty",
+        true,
+        "sz=0"
+      ],
+      [
+        "mid_has_item",
+        true,
+        "sz=1"
+      ],
+      [
+        "promote_m2l",
+        true,
+        "ok=True"
+      ],
+      [
+        "long_has_item",
+        true,
+        "sz=<bound method LongTermMemory.count of <src.memory.memory_tiers.LongTermMemory object at 0x0000012FBE080CE0>>"
+      ],
+      [
+        "demote_l2m",
+        true,
+        "ok=True"
+      ],
+      [
+        "skip_promote_rejected",
+        true,
+        "ok=False"
+      ],
+      [
+        "stats_tracked",
+        true,
+        "stats={'tier_sizes': {'short_term': 1, 'mid_term': 1, 'long_term': 0}, 'flow_counts': {'promoted_stm_mtm': 1, 'promoted_mtm_ltm': 1, 'demoted_mtm_stm': 0, 'demoted_ltm_mtm': 1, 'forgotten': 0, 'decayed': 0, 'reconciled': 0, 'auto_flow_runs': 0}}"
+      ],
+      [
+        "auto_flow_dict",
+        true,
+        "auto={'stm_expired': 0, 'mtm_expired': 0, 'promoted': 0, 'decayed': 0, 'reconciled': 0}"
+      ]
+    ],
+    "dur_ms": 45
+  },
+  "Exp31_SecurityFilter": {
+    "total": 14,
+    "passed": 13,
+    "accuracy": 0.9286,
+    "target_met": true,
+    "details": [
+      [
+        "pii_id_card",
+        true,
+        "expected=True actual=True n=2"
+      ],
+      [
+        "pii_phone",
+        true,
+        "expected=True actual=True n=1"
+      ],
+      [
+        "pii_bank_card",
+        true,
+        "expected=True actual=True n=1"
+      ],
+      [
+        "pii_email",
+        true,
+        "expected=True actual=True n=1"
+      ],
+      [
+        "pii_ip",
+        true,
+        "expected=True actual=True n=1"
+      ],
+      [
+        "pii_clean_port",
+        true,
+        "expected=False actual=False n=0"
+      ],
+      [
+        "pii_clean_docker",
+        true,
+        "expected=False actual=False n=0"
+      ],
+      [
+        "pii_clean_weather",
+        true,
+        "expected=False actual=False n=0"
+      ],
+      [
+        "mask_removes_phone",
+        true,
+        "masked=联系我138****5678或t***@example.com"
+      ],
+      [
+        "mask_preserves_context",
+        true,
+        "masked=联系我138****5678或t***@example.com"
+      ],
+      [
+        "level_filter",
+        true,
+        "n=2"
+      ],
+      [
+        "empty_safe",
+        true,
+        "empty"
+      ],
+      [
+        "clean_safe",
+        true,
+        "clean"
+      ],
+      [
+        "forget_engine_works",
+        false,
+        "err='tuple' object does not support item assignment"
+      ]
+    ],
+    "dur_ms": 147
+  },
+  "Exp32_CrossSession": {
+    "total": 6,
+    "passed": 6,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "session2_finds_vim",
+        true,
+        "n=1"
+      ],
+      [
+        "session2_finds_ssh",
+        true,
+        "n=1"
+      ],
+      [
+        "session3_finds_neovim",
+        true,
+        "n=2"
+      ],
+      [
+        "original_preserved",
+        true,
+        "n=1"
+      ],
+      [
+        "accumulates",
+        true,
+        "total=4"
+      ],
+      [
+        "prefs_persist",
+        true,
+        "skipped_independent_db"
+      ]
+    ],
+    "dur_ms": 189
+  },
+  "Exp33_Provenance": {
+    "total": 7,
+    "passed": 7,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "store_with_prov",
+        true,
+        "id=ef7b9669"
+      ],
+      [
+        "lineage_count",
+        true,
+        "n=3"
+      ],
+      [
+        "lineage_ordered",
+        true,
+        "ordered=True"
+      ],
+      [
+        "has_created",
+        true,
+        "types=['created', 'accessed', 'promoted']"
+      ],
+      [
+        "has_accessed",
+        true,
+        "types=['created', 'accessed', 'promoted']"
+      ],
+      [
+        "source_preserved",
+        true,
+        "srcs=['conversation_001', 'search', 'auto_flow']"
+      ],
+      [
+        "empty_lineage",
+        true,
+        "n=0"
+      ]
+    ],
+    "dur_ms": 252
+  },
+  "Exp34_Evolution": {
+    "total": 5,
+    "passed": 5,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "clusters_created",
+        true,
+        "n=10"
+      ],
+      [
+        "calibration_dict",
+        true,
+        "keys=['status']"
+      ],
+      [
+        "profile_dict",
+        true,
+        "keys=['user_id', 'cluster_count', 'interests', 'patterns', 'preferences']"
+      ],
+      [
+        "foresight_ok",
+        true,
+        "type=Foresight"
+      ],
+      [
+        "stats_ok",
+        true,
+        "stats={'total_clusters': 10, 'total_foresights': 1, 'total_members': 10}"
+      ]
+    ],
+    "dur_ms": 652
+  },
+  "Exp35_MultiTurnWarmup": {
+    "total": 8,
+    "passed": 8,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "first_triggers",
+        true,
+        "t=True"
+      ],
+      [
+        "threshold_doubled",
+        true,
+        "st={'session_id': 's1', 'message_count': 0, 'warmup_threshold': 2, 'total_l1_runs': 1, 'last_activity': 1781113093.2931213}"
+      ],
+      [
+        "second_no_trigger",
+        true,
+        "t=False"
+      ],
+      [
+        "third_triggers",
+        true,
+        "t=True"
+      ],
+      [
+        "warmup_state",
+        true,
+        "st={'session_id': 's1', 'message_count': 2, 'warmup_threshold': 5, 'total_l1_runs': 3, 'last_activity': 1781113093.2931213}"
+      ],
+      [
+        "new_session_warmup",
+        true,
+        "t=True"
+      ],
+      [
+        "warmup_stats",
+        true,
+        "stats={'active_sessions': 2, 'total_l1_runs': 4, 'warmup_enabled': True, 'steady_threshold': 5}"
+      ],
+      [
+        "extracts_some_prefs",
+        true,
+        "prefs=2/5"
+      ]
+    ],
+    "dur_ms": 9
+  },
+  "Exp36_Stress": {
+    "total": 8,
+    "passed": 8,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "store_20k",
+        true,
+        "dur=343.4s rate=58/s"
+      ],
+      [
+        "retrieve_20k",
+        true,
+        "found=10"
+      ],
+      [
+        "latency_ok",
+        true,
+        "p95=43.0ms"
+      ],
+      [
+        "concurrent_no_errors",
+        true,
+        "ok=20 err=0"
+      ],
+      [
+        "concurrent_all_return",
+        true,
+        "n=20"
+      ],
+      [
+        "auto_promote",
+        true,
+        "promoted=0"
+      ],
+      [
+        "cleanup",
+        true,
+        "cleaned=0"
+      ],
+      [
+        "stats_ok",
+        true,
+        "total=0"
+      ]
+    ],
+    "dur_ms": 346410,
+    "scale": 20000
+  },
+  "Exp37_EnhancedT28T30": {
+    "total": 19,
+    "passed": 19,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "T28-nc_Redis连接需",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-nc_SSH密钥必须用",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-nc_Docker必须",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-nc_Nginx需要配",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-nc_vim需要安装插",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-nc_Python项目",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-nc_Redis需要设",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-nc_SSH需要禁用r",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T28-c_Redis端口改",
+        true,
+        "exp=True act=True n=1"
+      ],
+      [
+        "T28-c_SSH端口改成2",
+        true,
+        "exp=True act=True n=3"
+      ],
+      [
+        "T28-c_Nginx监听端",
+        true,
+        "exp=True act=True n=1"
+      ],
+      [
+        "T30-nc_vim是一款流行",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T30-nc_Python的解",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T30-nc_SSH是安全的远",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T30-nc_vim确实是优秀",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T30-c_用vim确实不错",
+        true,
+        "exp=True act=True n=1"
+      ],
+      [
+        "T30-nc_vim是用户的首",
+        true,
+        "exp=False act=False n=0"
+      ],
+      [
+        "T30-c_nvim比vim",
+        true,
+        "exp=True act=True n=1"
+      ],
+      [
+        "T30-c_用户觉得emac",
+        true,
+        "exp=True act=True n=1"
+      ]
+    ],
+    "dur_ms": 186,
+    "t28_accuracy": 1.0,
+    "t30_accuracy": 1.0
+  }
+}

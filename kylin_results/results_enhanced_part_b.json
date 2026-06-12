@@ -1,0 +1,197 @@
+{
+  "exp24e": {
+    "experiment": "exp24e_retrieval_enhanced",
+    "duration_s": 5.5,
+    "n_entries": 200,
+    "results": {
+      "easy_keyword": {
+        "n_queries": 30,
+        "metrics": {
+          "recall@1": 0.9,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "mrr": 0.95,
+          "ndcg@5": 0.9877
+        }
+      },
+      "medium_conceptual": {
+        "n_queries": 30,
+        "metrics": {
+          "recall@1": 0.8333,
+          "recall@3": 0.9667,
+          "recall@5": 1.0,
+          "mrr": 0.8972,
+          "ndcg@5": 0.9374
+        }
+      },
+      "hard_multihop": {
+        "n_queries": 20,
+        "metrics": {
+          "recall@1": 0.8,
+          "recall@3": 0.85,
+          "recall@5": 0.95,
+          "mrr": 0.845,
+          "ndcg@5": 0.8887
+        }
+      },
+      "very_hard_edge": {
+        "n_queries": 20,
+        "metrics": {
+          "recall@1": 0.7,
+          "recall@3": 0.9,
+          "recall@5": 0.95,
+          "mrr": 0.7958,
+          "ndcg@5": 0.894
+        }
+      },
+      "overall": {
+        "n_queries": 100,
+        "metrics": {
+          "recall@1": 0.82,
+          "recall@3": 0.94,
+          "recall@5": 0.98,
+          "mrr": 0.8823,
+          "ndcg@5": 0.9341
+        }
+      }
+    }
+  },
+  "exp25e": {
+    "experiment": "exp25e_latency_enhanced",
+    "duration_s": 79.54,
+    "results": {
+      "1000": {
+        "store_time_s": 0.11,
+        "sequential": {
+          "p50_ms": 26.4,
+          "p95_ms": 34.19,
+          "p99_ms": 41.82,
+          "mean_ms": 26.66,
+          "n_queries": 100
+        },
+        "concurrent_10t": {
+          "p50_ms": 93.13,
+          "p95_ms": 939.21,
+          "p99_ms": 1732.01,
+          "mean_ms": 242.59,
+          "n_queries": 100,
+          "errors": 0
+        }
+      },
+      "5000": {
+        "store_time_s": 0.06,
+        "sequential": {
+          "p50_ms": 58.39,
+          "p95_ms": 109.8,
+          "p99_ms": 147.35,
+          "mean_ms": 66.21,
+          "n_queries": 100
+        },
+        "concurrent_10t": {
+          "p50_ms": 195.6,
+          "p95_ms": 2262.73,
+          "p99_ms": 5033.19,
+          "mean_ms": 587.15,
+          "n_queries": 100,
+          "errors": 0
+        }
+      },
+      "10000": {
+        "store_time_s": 0.15,
+        "sequential": {
+          "p50_ms": 93.7,
+          "p95_ms": 194.2,
+          "p99_ms": 246.73,
+          "mean_ms": 104.46,
+          "n_queries": 100
+        },
+        "concurrent_10t": {
+          "p50_ms": 395.62,
+          "p95_ms": 3302.47,
+          "p99_ms": 4626.42,
+          "mean_ms": 867.46,
+          "n_queries": 100,
+          "errors": 2
+        }
+      },
+      "20000": {
+        "store_time_s": 0.19,
+        "sequential": {
+          "p50_ms": 177.97,
+          "p95_ms": 343.41,
+          "p99_ms": 452.7,
+          "mean_ms": 194.32,
+          "n_queries": 100
+        },
+        "concurrent_10t": {
+          "p50_ms": 732.87,
+          "p95_ms": 4947.15,
+          "p99_ms": 5289.48,
+          "mean_ms": 1350.0,
+          "n_queries": 100,
+          "errors": 7
+        }
+      }
+    }
+  },
+  "classifier": {
+    "experiment": "diagnose_classifier",
+    "duration_s": 0.01,
+    "results": {
+      "colloquial": {
+        "accuracy": 0.4,
+        "correct": 2,
+        "total": 5
+      },
+      "sarcastic_negation": {
+        "accuracy": 1.0,
+        "correct": 5,
+        "total": 5
+      },
+      "domain_jargon": {
+        "accuracy": 1.0,
+        "correct": 5,
+        "total": 5
+      },
+      "mixed_language": {
+        "accuracy": 0.6,
+        "correct": 3,
+        "total": 5
+      },
+      "conditional_preference": {
+        "accuracy": 0.2,
+        "correct": 1,
+        "total": 5
+      },
+      "implicit_preference": {
+        "accuracy": 1.0,
+        "correct": 5,
+        "total": 5
+      },
+      "very_short": {
+        "accuracy": 1.0,
+        "correct": 5,
+        "total": 5
+      },
+      "nested_preference": {
+        "accuracy": 1.0,
+        "correct": 5,
+        "total": 5
+      },
+      "temporal_shift": {
+        "accuracy": 1.0,
+        "correct": 5,
+        "total": 5
+      },
+      "overall": {
+        "accuracy": 0.8,
+        "correct": 36,
+        "total": 45
+      },
+      "weakest_dimension": {
+        "name": "conditional_preference",
+        "accuracy": 0.2
+      }
+    }
+  }
+}

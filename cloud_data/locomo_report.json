@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-07 02:28:56",
+    "conversations": 3,
+    "total_questions": 11
+  },
+  "aggregate": {
+    "accuracy": 0.727,
+    "correct": 8,
+    "total": 11,
+    "avg_search_ms": 1.0
+  },
+  "per_conversation": [
+    {
+      "conv_id": "conv_001",
+      "memorize_ms": 116.5,
+      "questions": [
+        {
+          "question": "What editor does the user prefer?",
+          "expected": "vim",
+          "type": "preference",
+          "found": true,
+          "search_ms": 1.0,
+          "num_results": 5
+        },
+        {
+          "question": "What package manager is used?",
+          "expected": "yum",
+          "type": "knowledge",
+          "found": true,
+          "search_ms": 1.0,
+          "num_results": 5
+        },
+        {
+          "question": "What language should output be in?",
+          "expected": "Chinese",
+          "type": "preference",
+          "found": true,
+          "search_ms": 0.9,
+          "num_results": 2
+        },
+        {
+          "question": "What OS is the server running?",
+          "expected": "Kylin V10",
+          "type": "knowledge",
+          "found": true,
+          "search_ms": 0.9,
+          "num_results": 5
+        }
+      ],
+      "correct": 4,
+      "total": 4,
+      "accuracy": 1.0
+    },
+    {
+      "conv_id": "conv_002",
+      "memorize_ms": 89.0,
+      "questions": [
+        {
+          "question": "What command should replace ip?",
+          "expected": "cat /proc/net/dev",
+          "type": "knowledge",
+          "found": false,
+          "search_ms": 1.1,
+          "num_results": 5
+        },
+        {
+          "question": "What command should replace ss?",
+          "expected": "netstat or /proc/net/tcp",
+          "type": "knowledge",
+          "found": false,
+          "search_ms": 0.9,
+          "num_results": 4
+        },
+        {
+          "question": "What command is used for port checking?",
+          "expected": "lsof -i",
+          "type": "knowledge",
+          "found": true,
+          "search_ms": 0.9,
+          "num_results": 5
+        },
+        {
+          "question": "What port was the service deployed to?",
+          "expected": "8080",
+          "type": "knowledge",
+          "found": true,
+          "search_ms": 1.0,
+          "num_results": 5
+        }
+      ],
+      "correct": 2,
+      "total": 4,
+      "accuracy": 0.5
+    },
+    {
+      "conv_id": "conv_003",
+      "memorize_ms": 89.4,
+      "questions": [
+        {
+          "question": "Where is the SSH key located?",
+          "expected": "~/.ssh/kylin-test.pem",
+          "type": "knowledge",
+          "found": true,
+          "search_ms": 1.0,
+          "num_results": 5
+        },
+        {
+          "question": "What is the server IP?",
+          "expected": "120.26.206.72",
+          "type": "knowledge",
+          "found": false,
+          "search_ms": 1.0,
+          "num_results": 5
+        },
+        {
+          "question": "What SSH option is always used?",
+          "expected": "StrictHostKeyChecking=no",
+          "type": "preference",
+          "found": true,
+          "search_ms": 1.0,
+          "num_results": 5
+        }
+      ],
+      "correct": 2,
+      "total": 3,
+      "accuracy": 0.667
+    }
+  ]
+}

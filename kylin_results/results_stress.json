@@ -1,0 +1,302 @@
+{
+  "Exp23_PreferenceStress": {
+    "total": 97,
+    "correct": 85,
+    "accuracy": 0.8763,
+    "target_85_met": true,
+    "level_accuracy": {
+      "L1_clear": 1.0,
+      "L2_ambiguous": 1.0,
+      "L3_negation": 1.0,
+      "L4_implicit": 1.0,
+      "L5_mixed_lang": 1.0,
+      "L6_long_context": 0.8,
+      "L7_adversarial": 1.0,
+      "L8_pseudo_pref": 0.8,
+      "L9_conditional": 0.8,
+      "L10_multi_entity": 0.75,
+      "L11_negation_ambig": 0.5,
+      "L12_semantic_reason": 0.75,
+      "L13_indirect_pref": 1.0,
+      "L14_very_short": 0.8333,
+      "L15_complex_syntax": 0.6,
+      "L16_temporal": 0.6667
+    },
+    "failures": [
+      {
+        "text": "昨天调试了半天，发现gdb比lldb好用，以后都用gdb吧",
+        "expected": "episode",
+        "actual": "preference"
+      },
+      {
+        "text": "前端项目用React，后端项目用Go",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "小项目用SQLite，大项目用PostgreSQL",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "简单脚本用Python，高性能场景用Rust",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "不是说Redis不好，只是这个场景不适合",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "切换到新版本后兼容性更好了",
+        "expected": "preference",
+        "actual": "episode"
+      },
+      {
+        "text": "跑了两个月没出过故障",
+        "expected": "knowledge",
+        "actual": "episode"
+      },
+      {
+        "text": "client点名要用GraphQL替代REST",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "text": "经过一周的对比测试我们认为Go比Rust更适合这个项目",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "之前一直用的MySQL 5.7现在升级到了8.0",
+        "expected": "episode",
+        "actual": "preference"
+      }
+    ],
+    "failure_count": 12,
+    "dur_ms": 57
+  },
+  "Exp24_RetrievalStress": {
+    "total_entries": 352,
+    "total_queries": 101,
+    "valid_queries": 101,
+    "recall_at_5": 0.9307,
+    "recall_at_10": 0.9505,
+    "mrr": 0.8832,
+    "precision_at_5": 0.6693,
+    "latency_p50_ms": 9.95,
+    "latency_p95_ms": 13.63,
+    "latency_p99_ms": 20.22,
+    "target_recall_met": true,
+    "dur_ms": 2181
+  },
+  "Exp25_LatencyScaling": {
+    "scaling_results": {
+      "100": {
+        "entries": 100,
+        "encode_total_ms": 333.3,
+        "encode_per_entry_ms": 3.33,
+        "query_p50_ms": 4.75,
+        "query_p95_ms": 5.42,
+        "query_p99_ms": 5.42,
+        "query_avg_ms": 4.79
+      },
+      "500": {
+        "entries": 500,
+        "encode_total_ms": 1685.6,
+        "encode_per_entry_ms": 3.37,
+        "query_p50_ms": 10.29,
+        "query_p95_ms": 13.26,
+        "query_p99_ms": 13.26,
+        "query_avg_ms": 10.09
+      },
+      "1000": {
+        "entries": 1000,
+        "encode_total_ms": 3619.7,
+        "encode_per_entry_ms": 3.62,
+        "query_p50_ms": 16.77,
+        "query_p95_ms": 22.98,
+        "query_p99_ms": 22.98,
+        "query_avg_ms": 16.55
+      },
+      "2000": {
+        "entries": 2000,
+        "encode_total_ms": 8657.5,
+        "encode_per_entry_ms": 4.33,
+        "query_p50_ms": 30.78,
+        "query_p95_ms": 42.56,
+        "query_p99_ms": 42.56,
+        "query_avg_ms": 29.74
+      },
+      "5000": {
+        "entries": 5000,
+        "encode_total_ms": 22121.0,
+        "encode_per_entry_ms": 4.42,
+        "query_p50_ms": 70.47,
+        "query_p95_ms": 100.38,
+        "query_p99_ms": 100.38,
+        "query_avg_ms": 67.83
+      }
+    },
+    "max_p95_ms": 100.38,
+    "all_under_500ms": true,
+    "dur_ms": 38233
+  },
+  "Exp26_ConflictStress": {
+    "total": 134,
+    "correct": 131,
+    "accuracy": 0.9776,
+    "target_88_met": true,
+    "type_breakdown": {
+      "T1": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T2": {
+        "total": 8,
+        "correct": 8,
+        "accuracy": 1.0
+      },
+      "T3": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "T4": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T5": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T6": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T7": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T8": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0
+      },
+      "T9": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T10": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "T11": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T12": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0
+      },
+      "T13": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T14": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "T15": {
+        "total": 14,
+        "correct": 14,
+        "accuracy": 1.0
+      },
+      "T16": {
+        "total": 9,
+        "correct": 9,
+        "accuracy": 1.0
+      },
+      "T17": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333
+      },
+      "T18": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T19": {
+        "total": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "T20": {
+        "total": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "T21": {
+        "total": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "T22": {
+        "total": 4,
+        "correct": 4,
+        "accuracy": 1.0
+      },
+      "T23": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0
+      },
+      "T24": {
+        "total": 4,
+        "correct": 3,
+        "accuracy": 0.75
+      }
+    },
+    "failures": [
+      {
+        "desc": "T3-SSH箭头表达",
+        "input": "SSH端口: 22 -> 2222",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": true,
+        "actual_type": "duplicate"
+      },
+      {
+        "desc": "T17-主题偏好演变",
+        "input": "用户开始偏好light主题了",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T24-SSH端口可选",
+        "input": "SSH可以用端口22也可以用2222",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      }
+    ],
+    "failure_count": 3,
+    "dur_ms": 412
+  }
+}

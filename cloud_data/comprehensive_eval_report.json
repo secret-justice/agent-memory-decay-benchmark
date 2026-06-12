@@ -1,0 +1,596 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-07 03:27:40",
+    "api_url": "http://127.0.0.1:9090/api/v1",
+    "env": "Kylin V10 | Alibaba Cloud ECS"
+  },
+  "summary": {
+    "preference_accuracy": "0.0% (FAIL)",
+    "recall_at_5": "0.0% (FAIL)",
+    "search_latency_p95": "0.8ms (PASS)",
+    "conflict_accuracy": "0.0% (FAIL)",
+    "latency": "PASS",
+    "memory_flow": "OK"
+  },
+  "experiments": {
+    "A_preference": {
+      "experiment": "A_preference_accuracy",
+      "correct": 0,
+      "total": 30,
+      "accuracy": 0.0,
+      "target": 0.85,
+      "passed": false,
+      "details": [
+        {
+          "text": "I always prefer using vim for editing files",
+          "expected": "editor=vim",
+          "extracted": false,
+          "latency_ms": 2.8
+        },
+        {
+          "text": "Please use Chinese for all output",
+          "expected": "language=Chinese",
+          "extracted": false,
+          "latency_ms": 0.9
+        },
+        {
+          "text": "I like table format for data display",
+          "expected": "output_format=table",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Use dark mode for terminal",
+          "expected": "theme=dark",
+          "extracted": false,
+          "latency_ms": 0.7
+        },
+        {
+          "text": "Always ask before running destructive commands",
+          "expected": "confirmation=always",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "I prefer Python over Java for scripting",
+          "expected": "scripting_language=Python",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Show me detailed explanations, not just results",
+          "expected": "detail_level=detailed",
+          "extracted": false,
+          "latency_ms": 0.8
+        },
+        {
+          "text": "Use SSH key authentication only",
+          "expected": "auth_method=ssh_key",
+          "extracted": false,
+          "latency_ms": 0.7
+        },
+        {
+          "text": "I want compact output, no decorations",
+          "expected": "output_style=compact",
+          "extracted": false,
+          "latency_ms": 0.7
+        },
+        {
+          "text": "Prefer yum over apt for package management",
+          "expected": "package_manager=yum",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Use systemctl to manage services",
+          "expected": "service_manager=systemctl",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "I need JSON format for API responses",
+          "expected": "api_format=json",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Always use sudo for admin operations",
+          "expected": "privilege=sudo",
+          "extracted": false,
+          "latency_ms": 0.5
+        },
+        {
+          "text": "I prefer htop over top for monitoring",
+          "expected": "monitoring_tool=htop",
+          "extracted": false,
+          "latency_ms": 0.7
+        },
+        {
+          "text": "Use git for version control",
+          "expected": "vcs=git",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Output should be in English",
+          "expected": "language=English",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "I like verbose logging enabled",
+          "expected": "logging=verbose",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Use netstat for network diagnostics",
+          "expected": "network_tool=netstat",
+          "extracted": false,
+          "latency_ms": 0.5
+        },
+        {
+          "text": "Prefer incremental backups",
+          "expected": "backup_strategy=incremental",
+          "extracted": false,
+          "latency_ms": 0.7
+        },
+        {
+          "text": "I want confirmation for file deletions only",
+          "expected": "delete_confirmation=files_only",
+          "extracted": false,
+          "latency_ms": 0.7
+        },
+        {
+          "text": "Use rsync for file synchronization",
+          "expected": "sync_tool=rsync",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "I prefer list format over tables for short data",
+          "expected": "short_data_format=list",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Always use --no-confirm for yum install",
+          "expected": "yum_flags=--no-confirm",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "I want colored output in terminal",
+          "expected": "color=enabled",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Use crontab for scheduled tasks",
+          "expected": "scheduler=crontab",
+          "extracted": false,
+          "latency_ms": 0.5
+        },
+        {
+          "text": "Prefer cat over less for short files",
+          "expected": "file_viewer=cat",
+          "extracted": false,
+          "latency_ms": 0.5
+        },
+        {
+          "text": "I need CSV format for exports",
+          "expected": "export_format=csv",
+          "extracted": false,
+          "latency_ms": 0.7
+        },
+        {
+          "text": "Use firewall-cmd for firewall management",
+          "expected": "firewall_tool=firewall-cmd",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "I prefer quick summary first, then details on demand",
+          "expected": "response_style=summary_first",
+          "extracted": false,
+          "latency_ms": 0.6
+        },
+        {
+          "text": "Always log command history",
+          "expected": "history_logging=enabled",
+          "extracted": false,
+          "latency_ms": 0.7
+        }
+      ]
+    },
+    "B_recall": {
+      "experiment": "B_knowledge_recall",
+      "recall_at_5": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0,
+      "avg_latency_ms": 0.6,
+      "p95_latency_ms": 0.8,
+      "target_recall": 0.85,
+      "target_latency_ms": 500,
+      "passed_recall": false,
+      "passed_latency": true,
+      "details": [
+        {
+          "query": "package manager",
+          "expected": [
+            "yum"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 1.1
+        },
+        {
+          "query": "network command",
+          "expected": [
+            "cat /proc/net/dev",
+            "netstat"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.7
+        },
+        {
+          "query": "firewall",
+          "expected": [
+            "firewall-cmd"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "Python",
+          "expected": [
+            "python3"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "vector database",
+          "expected": [
+            "ChromaDB"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.5
+        },
+        {
+          "query": "LLM provider",
+          "expected": [
+            "MiMo"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.7
+        },
+        {
+          "query": "database storage",
+          "expected": [
+            "SQLite"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "SSH",
+          "expected": [
+            "port 22"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.7
+        },
+        {
+          "query": "service management",
+          "expected": [
+            "systemctl"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "web server",
+          "expected": [
+            "lighttpd"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.5
+        },
+        {
+          "query": "search algorithm",
+          "expected": [
+            "RRF",
+            "BM25"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.7
+        },
+        {
+          "query": "memory TTL",
+          "expected": [
+            "30 minutes"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "kernel version",
+          "expected": [
+            "4.19.90"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "API port",
+          "expected": [
+            "9090"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "re-ranking",
+          "expected": [
+            "MaxSim"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "fact extraction",
+          "expected": [
+            "atomic fact"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.7
+        },
+        {
+          "query": "memory promotion",
+          "expected": [
+            "short-term",
+            "mid-term"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.8
+        },
+        {
+          "query": "conflict detection",
+          "expected": [
+            "time decay"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "security filter",
+          "expected": [
+            "credentials",
+            "sensitive"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.7
+        },
+        {
+          "query": "logging",
+          "expected": [
+            "trace_id"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "embedding",
+          "expected": [
+            "cloud API"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "disk space",
+          "expected": [
+            "37GB"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "shell",
+          "expected": [
+            "bash"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "Docker",
+          "expected": [
+            "not installed"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        },
+        {
+          "query": "server provider",
+          "expected": [
+            "Alibaba Cloud"
+          ],
+          "found_at_5": false,
+          "found_at_10": false,
+          "first_rank": 0,
+          "latency_ms": 0.6
+        }
+      ]
+    },
+    "C_conflict": {
+      "experiment": "C_conflict_resolution",
+      "correct": 0,
+      "total": 10,
+      "accuracy": 0.0,
+      "target": 0.88,
+      "passed": false,
+      "details": [
+        {
+          "old": "Use systemctl to manage all services on Kylin V10",
+          "new": "Some services on Kylin V10 can be managed with ser",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.8
+        },
+        {
+          "old": "The default port for the memory API is 8080",
+          "new": "The memory API runs on port 9090",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.8
+        },
+        {
+          "old": "ip command works on Kylin V10 for network config",
+          "new": "ip command is not available on Kylin V10, use /pro",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.8
+        },
+        {
+          "old": "apt-get is the package manager for Kylin V10",
+          "new": "yum is the package manager for Kylin V10, not apt-",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.8
+        },
+        {
+          "old": "Python 2 is the default Python on Kylin V10",
+          "new": "Python 3 is installed at /usr/bin/python3 on Kylin",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.8
+        },
+        {
+          "old": "nginx is available on Kylin V10",
+          "new": "nginx is not installed on Kylin V10, use lighttpd ",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.8
+        },
+        {
+          "old": "The server uses CentOS package management",
+          "new": "The server runs Kylin V10 with yum-based package m",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.8
+        },
+        {
+          "old": "Memory search uses pure vector similarity",
+          "new": "Memory search uses hybrid BM25+vector with RRF fus",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.7
+        },
+        {
+          "old": "Short-term memory TTL is 60 minutes",
+          "new": "Short-term memory TTL is 30 minutes",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.9
+        },
+        {
+          "old": "ChromaDB stores data in PostgreSQL backend",
+          "new": "ChromaDB uses embedded SQLite for metadata storage",
+          "expected": "newer",
+          "resolved": false,
+          "latency_ms": 0.9
+        }
+      ]
+    },
+    "D_latency": {
+      "experiment": "D_latency",
+      "results": {
+        "store": {
+          "p50": 0.6,
+          "p95": 0.7,
+          "p99": 0.7,
+          "mean": 0.6
+        },
+        "retrieve": {
+          "p50": 0.6,
+          "p95": 0.8,
+          "p99": 0.8,
+          "mean": 0.6
+        },
+        "search": {
+          "p50": 0.6,
+          "p95": 0.8,
+          "p99": 0.8,
+          "mean": 0.6
+        }
+      },
+      "target_ms": 500,
+      "passed": true
+    },
+    "E_flow": {
+      "experiment": "E_memory_flow",
+      "stored": 0,
+      "tiers_before": {
+        "error": "HTTP Error 400: Bad Request"
+      },
+      "flow_result": {
+        "error": "HTTP Error 400: Bad Request"
+      },
+      "tiers_after": {
+        "error": "HTTP Error 400: Bad Request"
+      },
+      "flow_stats": {
+        "error": "HTTP Error 400: Bad Request"
+      }
+    }
+  }
+}

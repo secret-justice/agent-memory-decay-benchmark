@@ -1,0 +1,55 @@
+{
+  "Conflict25": {
+    "total": 26,
+    "correct": 23,
+    "accuracy": 0.8846,
+    "target_88_met": true,
+    "failures": [
+      {
+        "desc": "Nginx端口变更",
+        "input": "Nginx默认监听8080端口",
+        "expected_conflict": true,
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "中文数字-不应匹配",
+        "input": "端口从二十二改成了两千两百二十二",
+        "expected_conflict": false,
+        "actual_conflict": true,
+        "actual_type": "contradict"
+      },
+      {
+        "desc": "箭头表达",
+        "input": "SSH端口: 22 -> 2222",
+        "expected_conflict": true,
+        "actual_conflict": false,
+        "actual_type": null
+      }
+    ],
+    "dur_ms": 235
+  },
+  "E2E_Pipeline": {
+    "prefs_stored": 3,
+    "knowledge_stored": 3,
+    "search_accuracy": 0.8,
+    "search_hits": 4,
+    "search_total": 5,
+    "security_detected": 3,
+    "security_ok": true,
+    "forgetting_curve_ok": true,
+    "all_phases_pass": true,
+    "dur_ms": 189
+  },
+  "EdgeCases": {
+    "empty_store": "PASS",
+    "empty_retrieve": "PASS",
+    "long_store": "PASS",
+    "special_chars": "6/6",
+    "security_edge": "4/4",
+    "gate_edge": "6/6",
+    "bm25_empty": "PASS",
+    "concurrent_store": "ok=20 err=0",
+    "dur_ms": 741
+  }
+}

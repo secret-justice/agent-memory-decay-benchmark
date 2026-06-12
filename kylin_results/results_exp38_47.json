@@ -1,0 +1,337 @@
+{
+  "Exp38_MarkdownTruth": {
+    "total": 10,
+    "passed": 10,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "store_20",
+        true,
+        "n=20"
+      ],
+      [
+        "read_knowledge",
+        true,
+        "found=20"
+      ],
+      [
+        "store_10_mem",
+        true,
+        "n=10"
+      ],
+      [
+        "read_memories",
+        true,
+        "found=10"
+      ],
+      [
+        "store_failure",
+        true,
+        "id=mem_2026"
+      ],
+      [
+        "scan_all",
+        true,
+        "total=31"
+      ],
+      [
+        "pending",
+        true,
+        "pending=31"
+      ],
+      [
+        "mark_synced",
+        true,
+        "after=26"
+      ],
+      [
+        "stats",
+        true,
+        "stats={'memory_root': '/tmp/_exp1781144205866', 'total_md_files': 3, 'total_entries': 31, 'pending_sync': 26}"
+      ],
+      [
+        "integrity",
+        true,
+        "match=True"
+      ]
+    ]
+  },
+  "Exp39_HybridSearch": {
+    "total": 6,
+    "passed": 6,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "hybrid_recall",
+        true,
+        "hits=3/3"
+      ],
+      [
+        "bm25_recall",
+        true,
+        "hits=3/3"
+      ],
+      [
+        "hybrid_ge_bm25",
+        true,
+        "h=3 b=3"
+      ],
+      [
+        "rrf_works",
+        true,
+        "n=4"
+      ],
+      [
+        "rrf_order",
+        true,
+        "top2=['a', 'b']"
+      ],
+      [
+        "stats",
+        true,
+        "stats={'bm25_docs': 100, 'has_vector_store': False, 'has_embedding_fn': False, 'dependency_edges': 0, 'closure_enabled': False, 'config': {'bm25_top_k': 20, 'vector_top_k': 20, 'final_top_k': 5, 'rrf_k': 60, 'closure_max_depth': 3}}"
+      ]
+    ]
+  },
+  "Exp40_E2E": {
+    "total": 7,
+    "passed": 7,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "classify",
+        true,
+        "correct=3/3"
+      ],
+      [
+        "store",
+        true,
+        "total=3"
+      ],
+      [
+        "ret_I pref",
+        true,
+        "n=1"
+      ],
+      [
+        "ret_SSH de",
+        true,
+        "n=1"
+      ],
+      [
+        "ret_Yester",
+        true,
+        "n=1"
+      ],
+      [
+        "conflict",
+        true,
+        "n=0"
+      ],
+      [
+        "latency",
+        true,
+        "p95=0.2ms"
+      ]
+    ]
+  },
+  "Exp41_MultiUser": {
+    "total": 3,
+    "passed": 3,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "stored",
+        true,
+        "total=4"
+      ],
+      [
+        "user_a",
+        true,
+        "n=1"
+      ],
+      [
+        "user_b",
+        true,
+        "n=1"
+      ]
+    ]
+  },
+  "Exp42_DAGClosure": {
+    "total": 6,
+    "passed": 6,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "all",
+        true,
+        "c=['D', 'F', 'B', 'E', 'C', 'A']"
+      ],
+      [
+        "b_only",
+        true,
+        "cb=['D', 'B']"
+      ],
+      [
+        "depth",
+        true,
+        "cs=['B', 'C', 'A']"
+      ],
+      [
+        "future",
+        true,
+        "v=[]"
+      ],
+      [
+        "past",
+        true,
+        "v=['A']"
+      ],
+      [
+        "retrieve",
+        true,
+        "n=2"
+      ]
+    ]
+  },
+  "Exp43_CascadeSync": {
+    "total": 4,
+    "passed": 4,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "md_data",
+        true,
+        "md=10"
+      ],
+      [
+        "mm_data",
+        true,
+        "mm=10"
+      ],
+      [
+        "pending",
+        true,
+        "pending=10"
+      ],
+      [
+        "sync_ok",
+        true,
+        "before=10 after=5"
+      ]
+    ]
+  },
+  "Exp44_ChineseBoundary": {
+    "total": 7,
+    "passed": 7,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "store",
+        true,
+        "n=3"
+      ],
+      [
+        "ret_vim ",
+        true,
+        "n=1"
+      ],
+      [
+        "ret_port",
+        true,
+        "n=2"
+      ],
+      [
+        "emoji",
+        true,
+        "ok"
+      ],
+      [
+        "long",
+        true,
+        "len=10500"
+      ],
+      [
+        "empty",
+        true,
+        "ok"
+      ],
+      [
+        "pii",
+        true,
+        "n=2"
+      ]
+    ]
+  },
+  "Exp45_DataIntegration": {
+    "total": 3,
+    "passed": 3,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "html",
+        true,
+        "text=Hello world"
+      ],
+      [
+        "ws",
+        true,
+        "text=hello world"
+      ],
+      [
+        "quality",
+        true,
+        "score=1.0"
+      ]
+    ]
+  },
+  "Exp46_OME": {
+    "total": 3,
+    "passed": 3,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "init",
+        true,
+        "ok"
+      ],
+      [
+        "start",
+        true,
+        "ok"
+      ],
+      [
+        "stop",
+        true,
+        "ok"
+      ]
+    ]
+  },
+  "Exp47_Reranker": {
+    "total": 2,
+    "passed": 2,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "rerank",
+        true,
+        "n=3"
+      ],
+      [
+        "relevance",
+        true,
+        "top=vim editor usage tip"
+      ]
+    ]
+  }
+}

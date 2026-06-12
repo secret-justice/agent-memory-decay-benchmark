@@ -1,0 +1,2976 @@
+{
+  "exp48_adversarial_preference": {
+    "total": 150,
+    "passed": 126,
+    "accuracy": 0.84,
+    "target_met": true,
+    "details": [
+      [
+        "L1_00",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_01",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_02",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_03",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_04",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_05",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_06",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_07",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_08",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_09",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_10",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_11",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_12",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_13",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_14",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_15",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_16",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L1_17",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L1_18",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L1_19",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_00",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L2_01",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L2_02",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L2_03",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L2_04",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L2_05",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_06",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_07",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_08",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_09",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_10",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_11",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_12",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_13",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_14",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_15",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L2_16",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L2_17",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L2_18",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L2_19",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_00",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L3_01",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L3_02",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L3_03",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L3_04",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_05",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_06",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_07",
+        false,
+        "exp=knowledge got=episode"
+      ],
+      [
+        "L3_08",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_09",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_10",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_11",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_12",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_13",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_14",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_15",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L3_16",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_17",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L3_18",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L3_19",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_00",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L4_01",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_02",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_03",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_04",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_05",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_06",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_07",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_08",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L4_09",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_10",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_11",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_12",
+        false,
+        "exp=knowledge got=episode"
+      ],
+      [
+        "L4_13",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_14",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_15",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_16",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L4_17",
+        false,
+        "exp=knowledge got=episode"
+      ],
+      [
+        "L4_18",
+        false,
+        "exp=knowledge got=episode"
+      ],
+      [
+        "L4_19",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L5_00",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_01",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_02",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_03",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_04",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_05",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_06",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_07",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_08",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L5_09",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L5_10",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_11",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_12",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_13",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_14",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_15",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_16",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L5_17",
+        false,
+        "exp=preference got=episode"
+      ],
+      [
+        "L5_18",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L5_19",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L6_00",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L6_01",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L6_02",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L6_03",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L6_04",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L6_05",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L6_06",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L6_07",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_08",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_09",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_10",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_11",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_12",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_13",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_14",
+        false,
+        "exp=knowledge got=preference"
+      ],
+      [
+        "L6_15",
+        false,
+        "exp=knowledge got=episode"
+      ],
+      [
+        "L6_16",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_17",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_18",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_19",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_20",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_21",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_22",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_23",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L6_24",
+        false,
+        "exp=knowledge got=task"
+      ],
+      [
+        "L7_00",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_01",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_02",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_03",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_04",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_05",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L7_06",
+        false,
+        "exp=preference got=knowledge"
+      ],
+      [
+        "L7_07",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_08",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_09",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_10",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_11",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_12",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_13",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_14",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_15",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_16",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_17",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_18",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_19",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_20",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "L7_21",
+        true,
+        "exp=episode got=episode"
+      ],
+      [
+        "L7_22",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L7_23",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "L7_24",
+        true,
+        "exp=knowledge got=knowledge"
+      ]
+    ]
+  },
+  "exp49_adversarial_conflict": {
+    "total": 200,
+    "passed": 170,
+    "accuracy": 0.85,
+    "target_met": true,
+    "details": [
+      [
+        "T25_impl_00",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_01",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_02",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T25_impl_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_05",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_09",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T25_impl_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_12",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T25_impl_13",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T25_impl_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_15",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T25_impl_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T25_impl_18",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T25_impl_19",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_00",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_01",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_02",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_05",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T26_temp_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_13",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_18",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T26_temp_19",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_00",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_01",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T27_scope_02",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_05",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_13",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_18",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T27_scope_19",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_00",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T28_num_01",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_02",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T28_num_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_04",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T28_num_05",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_13",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_18",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T28_num_19",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_00",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T29_part_01",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_02",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_05",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_13",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_18",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T29_part_19",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T30_dup_00",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T30_dup_01",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T30_dup_02",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T30_dup_03",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T30_dup_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_05",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T30_dup_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_13",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T30_dup_18",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T30_dup_19",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_00",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T31_cross_01",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T31_cross_02",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T31_cross_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_05",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_11",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T31_cross_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_13",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_18",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T31_cross_19",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_00",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_01",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_02",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T32_casc_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_05",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_06",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_13",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T32_casc_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_18",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T32_casc_19",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T33_neg_00",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_01",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_02",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_03",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_04",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_05",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_06",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_07",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_08",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_09",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_10",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_11",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_12",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_13",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_14",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_15",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_16",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_17",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_18",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T33_neg_19",
+        true,
+        "should=True detected=True"
+      ],
+      [
+        "T34_fuzz_00",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T34_fuzz_01",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T34_fuzz_02",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_03",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_04",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_05",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T34_fuzz_06",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T34_fuzz_07",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_08",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_09",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_10",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_11",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_12",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_13",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_14",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_15",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_16",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_17",
+        true,
+        "should=False detected=False"
+      ],
+      [
+        "T34_fuzz_18",
+        false,
+        "should=False detected=True"
+      ],
+      [
+        "T34_fuzz_19",
+        true,
+        "should=False detected=False"
+      ]
+    ]
+  },
+  "exp50_extreme_scale": {
+    "total": 4,
+    "passed": 4,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "scale_1000",
+        true,
+        "n=1000 P50=16.8ms P95=23.0ms P99=23.0ms max=26.5ms"
+      ],
+      [
+        "scale_5000",
+        true,
+        "n=5000 P50=33.0ms P95=63.1ms P99=63.1ms max=711.5ms"
+      ],
+      [
+        "scale_10000",
+        true,
+        "n=10000 P50=47.4ms P95=108.1ms P99=108.1ms max=537.0ms"
+      ],
+      [
+        "scale_20000",
+        true,
+        "n=20000 P50=86.7ms P95=198.6ms P99=198.6ms max=231.9ms"
+      ]
+    ]
+  },
+  "exp51_adversarial_retrieval": {
+    "total": 100,
+    "passed": 95,
+    "accuracy": 0.95,
+    "target_met": true,
+    "details": [
+      [
+        "Q1_para_00",
+        true,
+        "q=远程登录默认端口"
+      ],
+      [
+        "Q1_para_01",
+        true,
+        "q=容器化微服务部署方案"
+      ],
+      [
+        "Q1_para_02",
+        true,
+        "q=缓存默认失效时间"
+      ],
+      [
+        "Q1_para_03",
+        true,
+        "q=代理服务器配置方法"
+      ],
+      [
+        "Q1_para_04",
+        true,
+        "q=非结构化数据存储"
+      ],
+      [
+        "Q1_para_05",
+        true,
+        "q=Python环境隔离工具"
+      ],
+      [
+        "Q1_para_06",
+        true,
+        "q=代码分支管理策略"
+      ],
+      [
+        "Q1_para_07",
+        true,
+        "q=容器副本管理配置"
+      ],
+      [
+        "Q1_para_08",
+        true,
+        "q=持续集成流水线工具"
+      ],
+      [
+        "Q1_para_09",
+        true,
+        "q=日志聚合分析方案"
+      ],
+      [
+        "Q1_para_10",
+        true,
+        "q=指标监控可视化"
+      ],
+      [
+        "Q1_para_11",
+        true,
+        "q=HTTPS证书自动管理"
+      ],
+      [
+        "Q1_para_12",
+        true,
+        "q=请求分发算法选择"
+      ],
+      [
+        "Q1_para_13",
+        true,
+        "q=数据定期备份策略"
+      ],
+      [
+        "Q1_para_14",
+        true,
+        "q=缓存页面置换算法"
+      ],
+      [
+        "Q1_para_15",
+        true,
+        "q=接口频率限制方法"
+      ],
+      [
+        "Q1_para_16",
+        true,
+        "q=异步任务处理方案"
+      ],
+      [
+        "Q1_para_17",
+        true,
+        "q=Docker镜像瘦身方法"
+      ],
+      [
+        "Q1_para_18",
+        true,
+        "q=代码合并审查流程"
+      ],
+      [
+        "Q1_para_19",
+        false,
+        "q=代码质量自动检测"
+      ],
+      [
+        "Q2_part_00",
+        true,
+        "q=容器部署"
+      ],
+      [
+        "Q2_part_01",
+        true,
+        "q=缓存过期"
+      ],
+      [
+        "Q2_part_02",
+        true,
+        "q=反向代理"
+      ],
+      [
+        "Q2_part_03",
+        true,
+        "q=JSON存储"
+      ],
+      [
+        "Q2_part_04",
+        true,
+        "q=虚拟环境"
+      ],
+      [
+        "Q2_part_05",
+        true,
+        "q=分支策略"
+      ],
+      [
+        "Q2_part_06",
+        true,
+        "q=副本数"
+      ],
+      [
+        "Q2_part_07",
+        false,
+        "q=流水线"
+      ],
+      [
+        "Q2_part_08",
+        true,
+        "q=ELK"
+      ],
+      [
+        "Q2_part_09",
+        true,
+        "q=监控"
+      ],
+      [
+        "Q2_part_10",
+        true,
+        "q=证书续期"
+      ],
+      [
+        "Q2_part_11",
+        true,
+        "q=轮询"
+      ],
+      [
+        "Q2_part_12",
+        true,
+        "q=凌晨备份"
+      ],
+      [
+        "Q2_part_13",
+        true,
+        "q=LRU"
+      ],
+      [
+        "Q2_part_14",
+        true,
+        "q=令牌桶"
+      ],
+      [
+        "Q2_part_15",
+        true,
+        "q=Kafka"
+      ],
+      [
+        "Q2_part_16",
+        true,
+        "q=多阶段构建"
+      ],
+      [
+        "Q2_part_17",
+        true,
+        "q=MR审查"
+      ],
+      [
+        "Q2_part_18",
+        false,
+        "q=静态分析"
+      ],
+      [
+        "Q2_part_19",
+        true,
+        "q=端口22"
+      ],
+      [
+        "Q3_cross_00",
+        true,
+        "q=SSH default port"
+      ],
+      [
+        "Q3_cross_01",
+        true,
+        "q=Docker microservice"
+      ],
+      [
+        "Q3_cross_02",
+        true,
+        "q=Redis cache expiration"
+      ],
+      [
+        "Q3_cross_03",
+        true,
+        "q=Nginx reverse proxy"
+      ],
+      [
+        "Q3_cross_04",
+        true,
+        "q=PostgreSQL JSON"
+      ],
+      [
+        "Q3_cross_05",
+        true,
+        "q=Python venv"
+      ],
+      [
+        "Q3_cross_06",
+        true,
+        "q=Git branching"
+      ],
+      [
+        "Q3_cross_07",
+        true,
+        "q=K8s pod replicas"
+      ],
+      [
+        "Q3_cross_08",
+        true,
+        "q=Jenkins CI/CD"
+      ],
+      [
+        "Q3_cross_09",
+        true,
+        "q=ELK log collection"
+      ],
+      [
+        "Q3_cross_10",
+        true,
+        "q=Prometheus monitoring"
+      ],
+      [
+        "Q3_cross_11",
+        true,
+        "q=SSL certificate renewal"
+      ],
+      [
+        "Q3_cross_12",
+        false,
+        "q=load balancing"
+      ],
+      [
+        "Q3_cross_13",
+        true,
+        "q=database backup"
+      ],
+      [
+        "Q3_cross_14",
+        true,
+        "q=LRU eviction"
+      ],
+      [
+        "Q3_cross_15",
+        false,
+        "q=rate limiting"
+      ],
+      [
+        "Q3_cross_16",
+        true,
+        "q=Kafka async"
+      ],
+      [
+        "Q3_cross_17",
+        true,
+        "q=Docker build"
+      ],
+      [
+        "Q3_cross_18",
+        true,
+        "q=GitLab review"
+      ],
+      [
+        "Q3_cross_19",
+        true,
+        "q=SonarQube analysis"
+      ],
+      [
+        "Q4_short_00",
+        true,
+        "q=SSH"
+      ],
+      [
+        "Q4_short_01",
+        true,
+        "q=Docker"
+      ],
+      [
+        "Q4_short_02",
+        true,
+        "q=Redis"
+      ],
+      [
+        "Q4_short_03",
+        true,
+        "q=Nginx"
+      ],
+      [
+        "Q4_short_04",
+        true,
+        "q=PostgreSQL"
+      ],
+      [
+        "Q4_short_05",
+        true,
+        "q=venv"
+      ],
+      [
+        "Q4_short_06",
+        true,
+        "q=Git"
+      ],
+      [
+        "Q4_short_07",
+        true,
+        "q=K8s"
+      ],
+      [
+        "Q4_short_08",
+        true,
+        "q=Jenkins"
+      ],
+      [
+        "Q4_short_09",
+        true,
+        "q=ELK"
+      ],
+      [
+        "Q4_short_10",
+        true,
+        "q=Grafana"
+      ],
+      [
+        "Q4_short_11",
+        true,
+        "q=SSL"
+      ],
+      [
+        "Q4_short_12",
+        true,
+        "q=LB"
+      ],
+      [
+        "Q4_short_13",
+        true,
+        "q=备份"
+      ],
+      [
+        "Q4_short_14",
+        true,
+        "q=LRU"
+      ],
+      [
+        "Q4_short_15",
+        true,
+        "q=限流"
+      ],
+      [
+        "Q4_short_16",
+        true,
+        "q=MQ"
+      ],
+      [
+        "Q4_short_17",
+        true,
+        "q=镜像"
+      ],
+      [
+        "Q4_short_18",
+        true,
+        "q=审查"
+      ],
+      [
+        "Q4_short_19",
+        true,
+        "q=扫描"
+      ],
+      [
+        "Q5_long_00",
+        true,
+        "q=我最近在研究服务器安全配置想知道SSH服务的默认端口是多少"
+      ],
+      [
+        "Q5_long_01",
+        true,
+        "q=团队做微服务容器化改造需要Docker部署完整方案"
+      ],
+      [
+        "Q5_long_02",
+        true,
+        "q=高并发场景下想了解Redis缓存的默认过期时间"
+      ],
+      [
+        "Q5_long_03",
+        true,
+        "q=需要配置反向代理实现负载均衡请问Nginx upstream"
+      ],
+      [
+        "Q5_long_04",
+        true,
+        "q=PostgreSQL的JSONB类型有什么优势和使用方法"
+      ],
+      [
+        "Q5_long_05",
+        true,
+        "q=如何使用venv创建管理虚拟环境隔离项目依赖"
+      ],
+      [
+        "Q5_long_06",
+        true,
+        "q=GitFlow工作流的具体规范是什么"
+      ],
+      [
+        "Q5_long_07",
+        true,
+        "q=K8s中如何设置Pod副本数保证服务高可用"
+      ],
+      [
+        "Q5_long_08",
+        true,
+        "q=如何用Jenkins Pipeline构建完整CI/CD流水"
+      ],
+      [
+        "Q5_long_09",
+        true,
+        "q=ELK技术栈的架构设计和部署方案是怎样的"
+      ],
+      [
+        "Q5_long_10",
+        true,
+        "q=Prometheus配合Grafana监控方案如何搭建"
+      ],
+      [
+        "Q5_long_11",
+        true,
+        "q=SSL证书自动申请续期的方案是什么"
+      ],
+      [
+        "Q5_long_12",
+        true,
+        "q=常见负载均衡算法有哪些各自适用场景"
+      ],
+      [
+        "Q5_long_13",
+        true,
+        "q=数据库自动备份最佳实践和保留策略"
+      ],
+      [
+        "Q5_long_14",
+        true,
+        "q=LRU算法实现原理和优缺点是什么"
+      ],
+      [
+        "Q5_long_15",
+        true,
+        "q=令牌桶算法和漏桶算法有什么区别"
+      ],
+      [
+        "Q5_long_16",
+        true,
+        "q=Kafka作为消息队列的架构设计是怎样的"
+      ],
+      [
+        "Q5_long_17",
+        true,
+        "q=多阶段构建的原理和最佳实践是什么"
+      ],
+      [
+        "Q5_long_18",
+        true,
+        "q=GitLab MR如何配置代码审查规则"
+      ],
+      [
+        "Q5_long_19",
+        true,
+        "q=SonarQube的配置和使用方法是什么"
+      ]
+    ]
+  },
+  "exp52_concurrent_stress": {
+    "total": 4,
+    "passed": 4,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "no_errors",
+        true,
+        "errors=0"
+      ],
+      [
+        "throughput",
+        true,
+        "36.2ops/s"
+      ],
+      [
+        "p95",
+        true,
+        "1334.7ms"
+      ],
+      [
+        "total",
+        true,
+        "500/500"
+      ]
+    ]
+  },
+  "exp53_noisy_resilience": {
+    "total": 26,
+    "passed": 25,
+    "accuracy": 0.9615,
+    "target_met": true,
+    "details": [
+      [
+        "bom",
+        true,
+        "preference"
+      ],
+      [
+        "long",
+        true,
+        "knowledge"
+      ],
+      [
+        "empty",
+        true,
+        "trivial"
+      ],
+      [
+        "none",
+        true,
+        "knowledge"
+      ],
+      [
+        "emoji",
+        true,
+        "knowledge"
+      ],
+      [
+        "uni",
+        true,
+        "knowledge"
+      ],
+      [
+        "sql_0",
+        true,
+        "knowledge"
+      ],
+      [
+        "sql_1",
+        true,
+        "knowledge"
+      ],
+      [
+        "sql_2",
+        true,
+        "knowledge"
+      ],
+      [
+        "xss_0",
+        true,
+        "knowledge"
+      ],
+      [
+        "xss_1",
+        false,
+        "failure"
+      ],
+      [
+        "xss_2",
+        true,
+        "knowledge"
+      ],
+      [
+        "mm_0",
+        true,
+        ""
+      ],
+      [
+        "mm_1",
+        true,
+        ""
+      ],
+      [
+        "mm_2",
+        true,
+        ""
+      ],
+      [
+        "mm_3",
+        true,
+        ""
+      ],
+      [
+        "mm_4",
+        true,
+        ""
+      ],
+      [
+        "mm_5",
+        true,
+        ""
+      ],
+      [
+        "ret_0",
+        true,
+        "3"
+      ],
+      [
+        "ret_1",
+        true,
+        "3"
+      ],
+      [
+        "ret_2",
+        true,
+        "1"
+      ],
+      [
+        "ret_3",
+        true,
+        "3"
+      ],
+      [
+        "ret_4",
+        true,
+        "3"
+      ],
+      [
+        "ke_0",
+        true,
+        "0"
+      ],
+      [
+        "ke_1",
+        true,
+        "0"
+      ],
+      [
+        "ke_2",
+        true,
+        "0"
+      ]
+    ]
+  },
+  "exp54_cross_session": {
+    "total": 38,
+    "passed": 38,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "ret_00",
+        true,
+        "key=关于Redis的配置知识"
+      ],
+      [
+        "ret_01",
+        true,
+        "key=关于Nginx的配置知识"
+      ],
+      [
+        "ret_02",
+        true,
+        "key=关于Docker的配置知识"
+      ],
+      [
+        "ret_03",
+        true,
+        "key=关于MySQL的配置知识"
+      ],
+      [
+        "ret_04",
+        true,
+        "key=关于Git的配置知识"
+      ],
+      [
+        "ret_05",
+        true,
+        "key=关于Redis的配置知识"
+      ],
+      [
+        "ret_06",
+        true,
+        "key=关于Nginx的配置知识"
+      ],
+      [
+        "ret_07",
+        true,
+        "key=关于Docker的配置知识"
+      ],
+      [
+        "ret_08",
+        true,
+        "key=关于MySQL的配置知识"
+      ],
+      [
+        "ret_09",
+        true,
+        "key=关于Git的配置知识"
+      ],
+      [
+        "ret_10",
+        true,
+        "key=关于Redis的配置知识"
+      ],
+      [
+        "ret_11",
+        true,
+        "key=关于Nginx的配置知识"
+      ],
+      [
+        "ret_12",
+        true,
+        "key=关于Docker的配置知识"
+      ],
+      [
+        "ret_13",
+        true,
+        "key=关于MySQL的配置知识"
+      ],
+      [
+        "ret_14",
+        true,
+        "key=关于Git的配置知识"
+      ],
+      [
+        "ret_15",
+        true,
+        "key=关于Redis的配置知识"
+      ],
+      [
+        "ret_16",
+        true,
+        "key=关于Nginx的配置知识"
+      ],
+      [
+        "ret_17",
+        true,
+        "key=关于Docker的配置知识"
+      ],
+      [
+        "ret_18",
+        true,
+        "key=关于MySQL的配置知识"
+      ],
+      [
+        "ret_19",
+        true,
+        "key=关于Git的配置知识"
+      ],
+      [
+        "ret_20",
+        true,
+        "key=关于Redis的配置知识"
+      ],
+      [
+        "ret_21",
+        true,
+        "key=关于Nginx的配置知识"
+      ],
+      [
+        "ret_22",
+        true,
+        "key=关于Docker的配置知识"
+      ],
+      [
+        "ret_23",
+        true,
+        "key=关于MySQL的配置知识"
+      ],
+      [
+        "ret_24",
+        true,
+        "key=关于Git的配置知识"
+      ],
+      [
+        "ret_25",
+        true,
+        "key=关于Redis的配置知识"
+      ],
+      [
+        "ret_26",
+        true,
+        "key=关于Nginx的配置知识"
+      ],
+      [
+        "ret_27",
+        true,
+        "key=关于Docker的配置知识"
+      ],
+      [
+        "ret_28",
+        true,
+        "key=关于MySQL的配置知识"
+      ],
+      [
+        "ret_29",
+        true,
+        "key=关于Git的配置知识"
+      ],
+      [
+        "ret_30",
+        true,
+        "key=关于Redis的配置知识"
+      ],
+      [
+        "ret_31",
+        true,
+        "key=关于Nginx的配置知识"
+      ],
+      [
+        "ret_32",
+        true,
+        "key=关于Docker的配置知识"
+      ],
+      [
+        "ret_33",
+        true,
+        "key=关于MySQL的配置知识"
+      ],
+      [
+        "ret_34",
+        true,
+        "key=关于Git的配置知识"
+      ],
+      [
+        "cross_store",
+        true,
+        "id=78c18618"
+      ],
+      [
+        "cross_read",
+        true,
+        "found=5"
+      ],
+      [
+        "total",
+        true,
+        "count=36"
+      ]
+    ]
+  },
+  "exp55_integration_pipeline": {
+    "total": 60,
+    "passed": 51,
+    "accuracy": 0.85,
+    "target_met": true,
+    "details": [
+      [
+        "cls_00",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "cls_01",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "cls_02",
+        true,
+        "exp=episode got=episode"
+      ],
+      [
+        "cls_03",
+        true,
+        "exp=task got=task"
+      ],
+      [
+        "cls_04",
+        false,
+        "exp=failure got=episode"
+      ],
+      [
+        "cls_05",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "cls_06",
+        false,
+        "exp=knowledge got=episode"
+      ],
+      [
+        "cls_07",
+        true,
+        "exp=episode got=episode"
+      ],
+      [
+        "cls_08",
+        false,
+        "exp=knowledge got=episode"
+      ],
+      [
+        "cls_09",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "cls_10",
+        false,
+        "exp=failure got=episode"
+      ],
+      [
+        "cls_11",
+        true,
+        "exp=task got=task"
+      ],
+      [
+        "cls_12",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "cls_13",
+        true,
+        "exp=knowledge got=knowledge"
+      ],
+      [
+        "cls_14",
+        true,
+        "exp=episode got=episode"
+      ],
+      [
+        "cls_15",
+        false,
+        "exp=task got=knowledge"
+      ],
+      [
+        "cls_16",
+        false,
+        "exp=failure got=knowledge"
+      ],
+      [
+        "cls_17",
+        true,
+        "exp=preference got=preference"
+      ],
+      [
+        "cls_18",
+        false,
+        "exp=failure got=knowledge"
+      ],
+      [
+        "cls_19",
+        false,
+        "exp=episode got=knowledge"
+      ],
+      [
+        "ms_00",
+        true,
+        ""
+      ],
+      [
+        "ms_01",
+        true,
+        ""
+      ],
+      [
+        "ms_02",
+        true,
+        ""
+      ],
+      [
+        "ms_03",
+        true,
+        ""
+      ],
+      [
+        "ms_04",
+        true,
+        ""
+      ],
+      [
+        "ms_05",
+        true,
+        ""
+      ],
+      [
+        "ms_06",
+        true,
+        ""
+      ],
+      [
+        "ms_07",
+        true,
+        ""
+      ],
+      [
+        "ms_08",
+        true,
+        ""
+      ],
+      [
+        "ms_09",
+        true,
+        ""
+      ],
+      [
+        "ms_10",
+        true,
+        ""
+      ],
+      [
+        "ms_11",
+        true,
+        ""
+      ],
+      [
+        "ms_12",
+        true,
+        ""
+      ],
+      [
+        "ms_13",
+        true,
+        ""
+      ],
+      [
+        "ms_14",
+        true,
+        ""
+      ],
+      [
+        "ms_15",
+        true,
+        ""
+      ],
+      [
+        "ms_16",
+        true,
+        ""
+      ],
+      [
+        "ms_17",
+        true,
+        ""
+      ],
+      [
+        "ms_18",
+        true,
+        ""
+      ],
+      [
+        "ms_19",
+        true,
+        ""
+      ],
+      [
+        "ks_00",
+        true,
+        ""
+      ],
+      [
+        "ks_01",
+        true,
+        ""
+      ],
+      [
+        "ks_02",
+        true,
+        ""
+      ],
+      [
+        "ks_03",
+        true,
+        ""
+      ],
+      [
+        "ks_04",
+        true,
+        ""
+      ],
+      [
+        "ks_05",
+        true,
+        ""
+      ],
+      [
+        "ks_06",
+        true,
+        ""
+      ],
+      [
+        "ks_07",
+        true,
+        ""
+      ],
+      [
+        "ks_08",
+        true,
+        ""
+      ],
+      [
+        "ks_09",
+        true,
+        ""
+      ],
+      [
+        "ct_00",
+        true,
+        "exp=True det=True"
+      ],
+      [
+        "ct_01",
+        true,
+        "exp=False det=False"
+      ],
+      [
+        "ct_02",
+        false,
+        "exp=True det=False"
+      ],
+      [
+        "ct_03",
+        true,
+        "exp=False det=False"
+      ],
+      [
+        "rt_00",
+        true,
+        "found=4"
+      ],
+      [
+        "rt_01",
+        true,
+        "found=5"
+      ],
+      [
+        "rt_02",
+        true,
+        "found=5"
+      ],
+      [
+        "rt_03",
+        true,
+        "found=4"
+      ],
+      [
+        "rt_04",
+        true,
+        "found=2"
+      ],
+      [
+        "e2e",
+        true,
+        "cls=preference"
+      ]
+    ]
+  }
+}

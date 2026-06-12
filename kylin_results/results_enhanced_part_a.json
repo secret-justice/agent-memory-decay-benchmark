@@ -1,0 +1,683 @@
+{
+  "Exp23E_PreferenceEnhanced": {
+    "total": 150,
+    "correct": 129,
+    "accuracy": 0.86,
+    "target_85_met": true,
+    "level_accuracy": {
+      "L1_clear": 1.0,
+      "L2_ambiguous": 1.0,
+      "L3_negation": 1.0,
+      "L4_implicit": 1.0,
+      "L5_mixed_lang": 1.0,
+      "L6_long_context": 1.0,
+      "L7_adversarial": 0.6,
+      "L8_colloquial": 0.8667,
+      "L9_sarcasm": 0.8,
+      "L10_jargon": 0.8,
+      "L11_cross_lang": 0.8,
+      "L12_conditional": 0.625,
+      "L13_hidden_pref": 0.875,
+      "L14_very_short": 0.8,
+      "L15_nested_justif": 0.8,
+      "L16_negation_pref": 0.875,
+      "L17_intensity": 1.0,
+      "L18_temporal_shift": 0.75,
+      "L19_multi_parallel": 0.875,
+      "L20_boundary": 0.6
+    },
+    "failures": [
+      {
+        "text": "SSH服务默认使用22端口",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "Docker通常用来打包微服务应用",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "无所谓了随便选一个",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "要不试试goland",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "行吧又得重新部署",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "部署k8s需要至少3个节点",
+        "expected": "knowledge",
+        "actual": "episode"
+      },
+      {
+        "text": "把deployment迁移到k8s上",
+        "expected": "knowledge",
+        "actual": "task"
+      },
+      {
+        "text": "测试环境用h2生产用mysql",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "text": "本地开发用docker-compose线上用k8s",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "text": "静态资源用nginx动态请求用gunicorn",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "按惯例来就行",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "用nginx",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "用docker部署因为环境一致性好",
+        "expected": "knowledge",
+        "actual": "episode"
+      },
+      {
+        "text": "排除.net不跨平台",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "text": "过去用svn现在全用git",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "text": "早先用centos现在转ubuntu了",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "text": "git管理代码docker打包helm部署k8s",
+        "expected": "knowledge",
+        "actual": "episode"
+      },
+      {
+        "text": "用vim",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "text": "觉得vim不错",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "text": "vim比emacs好用",
+        "expected": "preference",
+        "actual": "knowledge"
+      }
+    ],
+    "failure_count": 21,
+    "dur_ms": 39
+  },
+  "Exp26E_ConflictEnhanced": {
+    "total": 209,
+    "correct": 186,
+    "accuracy": 0.89,
+    "target_88_met": true,
+    "type_breakdown": {
+      "T1": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T2": {
+        "total": 8,
+        "correct": 8,
+        "accuracy": 1.0
+      },
+      "T3": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "T4": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T5": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T6": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T7": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T8": {
+        "total": 10,
+        "correct": 9,
+        "accuracy": 0.9
+      },
+      "T9": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "T10": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T11": {
+        "total": 5,
+        "correct": 4,
+        "accuracy": 0.8
+      },
+      "T12": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T13": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333
+      },
+      "T14": {
+        "total": 4,
+        "correct": 2,
+        "accuracy": 0.5
+      },
+      "T15": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T16": {
+        "total": 25,
+        "correct": 23,
+        "accuracy": 0.92
+      },
+      "T17": {
+        "total": 10,
+        "correct": 8,
+        "accuracy": 0.8
+      },
+      "T18": {
+        "total": 8,
+        "correct": 8,
+        "accuracy": 1.0
+      },
+      "T19": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "T20": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T21": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "T22": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "T23": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "T24": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0
+      },
+      "T25": {
+        "total": 5,
+        "correct": 4,
+        "accuracy": 0.8
+      },
+      "T26": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "T27": {
+        "total": 5,
+        "correct": 4,
+        "accuracy": 0.8
+      },
+      "T28": {
+        "total": 5,
+        "correct": 3,
+        "accuracy": 0.6
+      },
+      "T29": {
+        "total": 5,
+        "correct": 3,
+        "accuracy": 0.6
+      },
+      "T30": {
+        "total": 5,
+        "correct": 2,
+        "accuracy": 0.4
+      }
+    },
+    "failures": [
+      {
+        "desc": "T3-SSH-arrow",
+        "input": "SSH端口: 22 -> 2222",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": true,
+        "actual_type": "duplicate"
+      },
+      {
+        "desc": "T8-user-occasional",
+        "input": "用户偶尔也用emacs",
+        "expected_conflict": false,
+        "expected_type": null,
+        "actual_conflict": true,
+        "actual_type": "contradict"
+      },
+      {
+        "desc": "T11-Docker-K8s",
+        "input": "Docker和K8s不是互相替代的关系",
+        "expected_conflict": false,
+        "expected_type": null,
+        "actual_conflict": true,
+        "actual_type": "contradict"
+      },
+      {
+        "desc": "T13-Redis-cluster",
+        "input": "Redis集群最少需要3个主节点",
+        "expected_conflict": false,
+        "expected_type": null,
+        "actual_conflict": true,
+        "actual_type": "contradict"
+      },
+      {
+        "desc": "T14-SSH-2023",
+        "input": "2023年SSH默认端口仍是22",
+        "expected_conflict": false,
+        "expected_type": null,
+        "actual_conflict": true,
+        "actual_type": "duplicate"
+      },
+      {
+        "desc": "T14-Python-312",
+        "input": "Python 3.12引入更好的错误提示",
+        "expected_conflict": false,
+        "expected_type": null,
+        "actual_conflict": true,
+        "actual_type": "contradict"
+      },
+      {
+        "desc": "T16-Docker-Moby",
+        "input": "Docker已更名为Moby",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T16-SSH-optional",
+        "input": "SSH可以用端口22也可以用2222",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T17-HTTPS-equiv",
+        "input": "HTTPS协议使用443端口",
+        "expected_conflict": true,
+        "expected_type": "duplicate",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T17-JWT-equiv",
+        "input": "JWT令牌的过期时间设置为24小时",
+        "expected_conflict": true,
+        "expected_type": "duplicate",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T19-JWT-staging",
+        "input": "staging环境JWT过期1小时",
+        "expected_conflict": false,
+        "expected_type": null,
+        "actual_conflict": true,
+        "actual_type": "contradict"
+      },
+      {
+        "desc": "T21-Git-temp",
+        "input": "并非反对git只是这次用svn",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T22-Docker-mem",
+        "input": "Docker内存限制512MB",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T23-Python-perf",
+        "input": "Python性能确实拉胯",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T25-vim-node",
+        "input": "vim底层已被重写为Node.js",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T27-long-lang",
+        "input": "领导层最终拍板，中文输出功能不再维护，全面切换英文",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T28-vim-ver",
+        "input": "用户偏好vim，但是vim版本必须高于9.0",
+        "expected_conflict": true,
+        "expected_type": "duplicate",
+        "actual_conflict": true,
+        "actual_type": "contradict"
+      },
+      {
+        "desc": "T28-Python-ver",
+        "input": "Python只用3.11以上版本",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T29-vim-gt",
+        "input": "vim > vscode（指效率）",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      },
+      {
+        "desc": "T29-Nginx-arrow",
+        "input": "Nginx port: 80 -> 8080",
+        "expected_conflict": true,
+        "expected_type": "contradict",
+        "actual_conflict": false,
+        "actual_type": null
+      }
+    ],
+    "failure_count": 23,
+    "dur_ms": 824
+  },
+  "Exp27_CrossSessionDecay": {
+    "key_memories": 50,
+    "noise_inserted": 1500,
+    "baseline": {
+      "recall_rate": 1.0,
+      "p50_ms": 14.0,
+      "p95_ms": 35.0,
+      "total": 50,
+      "hits": 50,
+      "phase": "baseline"
+    },
+    "after_noise": {
+      "recall_rate": 1.0,
+      "p50_ms": 16.0,
+      "p95_ms": 21.0,
+      "total": 50,
+      "hits": 50,
+      "phase": "after_500_noise"
+    },
+    "after_more_noise": {
+      "recall_rate": 1.0,
+      "p50_ms": 17.0,
+      "p95_ms": 27.0,
+      "total": 50,
+      "hits": 50,
+      "phase": "after_1500_noise"
+    },
+    "recall_decay": 0.0,
+    "p50_increase_ms": 3.0,
+    "p95_increase_ms": -8.0,
+    "dur_ms": 23323
+  },
+  "Exp28_E2EPipelineStress": {
+    "total_inputs": 100,
+    "step_results": {
+      "classify": {
+        "total": 100,
+        "correct": 80,
+        "accuracy": 0.8,
+        "p50_ms": 0.0,
+        "p95_ms": 0.95
+      },
+      "safety": {
+        "total": 100,
+        "correct": 98,
+        "accuracy": 0.98,
+        "p50_ms": 0.0,
+        "p95_ms": 0.0
+      },
+      "store": {
+        "total": 100,
+        "correct": 100,
+        "success": 100,
+        "accuracy": 1.0,
+        "p50_ms": 12.0,
+        "p95_ms": 15.0
+      },
+      "conflict": {
+        "total": 100,
+        "correct": 95,
+        "accuracy": 0.95,
+        "p50_ms": 1.71,
+        "p95_ms": 2.11
+      },
+      "retrieve": {
+        "total": 100,
+        "correct": 100,
+        "accuracy": 1.0,
+        "p50_ms": 15.0,
+        "p95_ms": 18.0
+      }
+    },
+    "failures": [
+      {
+        "step": "classify",
+        "text": "前端项目用React",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "测试用pytest格式化用black",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "CI用GitHub Actions",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "日志收集用ELK",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "觉得vim不错",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "部署k8s需要至少3个节点",
+        "expected": "knowledge",
+        "actual": "episode"
+      },
+      {
+        "step": "classify",
+        "text": "安装了Docker和docker-compose",
+        "expected": "episode",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "升级了Python到3.12版本",
+        "expected": "episode",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "备份了Redis数据到S3",
+        "expected": "episode",
+        "actual": "knowledge"
+      },
+      {
+        "step": "safety",
+        "text": "密码是Admin@123456",
+        "expected": false,
+        "actual": true
+      },
+      {
+        "step": "classify",
+        "text": "用户名admin密码test123",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "step": "safety",
+        "text": "用户名admin密码test123",
+        "expected": false,
+        "actual": true
+      },
+      {
+        "step": "classify",
+        "text": "SSH默认端口改成2222",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "step": "conflict",
+        "text": "用户偏好使用emacs编辑器",
+        "expected": true,
+        "actual": false
+      },
+      {
+        "step": "classify",
+        "text": "Nginx改用443端口",
+        "expected": "knowledge",
+        "actual": "preference"
+      },
+      {
+        "step": "conflict",
+        "text": "用户喜欢用light主题",
+        "expected": true,
+        "actual": false
+      },
+      {
+        "step": "conflict",
+        "text": "不要用vim了",
+        "expected": true,
+        "actual": false
+      },
+      {
+        "step": "classify",
+        "text": "之前SSH用22端口现在改成2222了",
+        "expected": "preference",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "haha",
+        "expected": "trivial",
+        "actual": "knowledge"
+      },
+      {
+        "step": "conflict",
+        "text": "Go语言编译速度很快",
+        "expected": false,
+        "actual": true
+      },
+      {
+        "step": "classify",
+        "text": "Rust的borrow checker保证内存安全",
+        "expected": "knowledge",
+        "actual": "task"
+      },
+      {
+        "step": "classify",
+        "text": "迁移了Redis数据到新集群",
+        "expected": "episode",
+        "actual": "knowledge"
+      },
+      {
+        "step": "conflict",
+        "text": "迁移了Redis数据到新集群",
+        "expected": false,
+        "actual": true
+      },
+      {
+        "step": "classify",
+        "text": "升级了Kubernetes集群到1.28版本",
+        "expected": "episode",
+        "actual": "knowledge"
+      },
+      {
+        "step": "classify",
+        "text": "排查了MySQL慢查询问题",
+        "expected": "episode",
+        "actual": "knowledge"
+      }
+    ],
+    "failure_count": 27,
+    "dur_ms": 3072
+  }
+}

@@ -1,0 +1,824 @@
+{
+  "Exp61_Colloquial": {
+    "total": 40,
+    "passed": 32,
+    "accuracy": 0.8,
+    "target_met": true,
+    "details": [
+      [
+        "vimyyds",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "Docker真香",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "PostgreSQL绝了",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "Python太好用了叭",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "Rust真的顶",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "以后就它了选Docker",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "还是vim靠谱",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "Redis这玩意儿真快",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "K8s太折腾了还是Docker Comp",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "Nginx比Apache好使",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "咱以后都用Python哈",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "给我整一个Redis",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "别用那个破vim了换VSCode",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "这个MySQL中用",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "Git这东西得用起来",
+        false,
+        "got=knowledge exp=preference"
+      ],
+      [
+        "我一般都是用Docker部署的",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "我通常都开深色模式",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "我写代码必开type hints",
+        false,
+        "got=trivial exp=preference"
+      ],
+      [
+        "我每次提交都跑一遍测试",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "我习惯先写文档再写代码",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "谁还用记事本写代码啊",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "现在谁不用Git啊",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "HTTPS不是标配吗",
+        false,
+        "got=knowledge exp=preference"
+      ],
+      [
+        "测试不写怎么行",
+        false,
+        "got=knowledge exp=preference"
+      ],
+      [
+        "日志不结构化怎么查",
+        false,
+        "got=knowledge exp=preference"
+      ],
+      [
+        "受不了sublime了",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "再也不用Jenkins了",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "Apache太重了",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "SVN赶紧淘汰吧",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "jQuery别再用了",
+        true,
+        "got=preference exp=preference"
+      ],
+      [
+        "SSH默认端口是22",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "Python是解释型语言",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "Docker用镜像创建容器",
+        false,
+        "got=episode exp=knowledge"
+      ],
+      [
+        "Redis支持持久化",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "MySQL用SQL查询",
+        true,
+        "got=knowledge exp=knowledge"
+      ],
+      [
+        "今天把Jenkins换成GitHub A",
+        false,
+        "got=preference exp=episode"
+      ],
+      [
+        "昨天debug了一天Docker网络问题",
+        true,
+        "got=episode exp=episode"
+      ],
+      [
+        "上周做了Redis集群迁移",
+        true,
+        "got=episode exp=episode"
+      ],
+      [
+        "前天升级了Python到3.12",
+        false,
+        "got=knowledge exp=episode"
+      ],
+      [
+        "今天终于把Nginx配置调通了",
+        true,
+        "got=episode exp=episode"
+      ]
+    ]
+  },
+  "Exp62_MultiHop": {
+    "total": 10,
+    "passed": 10,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "hop_why can I not S",
+        true,
+        "found=2/2"
+      ],
+      [
+        "hop_how to edit ngi",
+        true,
+        "found=2/2"
+      ],
+      [
+        "hop_where is databa",
+        true,
+        "found=2/2"
+      ],
+      [
+        "hop_what network do",
+        true,
+        "found=2/2"
+      ],
+      [
+        "hop_what disk is po",
+        true,
+        "found=2/2"
+      ],
+      [
+        "single_SSH port",
+        true,
+        "n=4"
+      ],
+      [
+        "single_Redis port",
+        true,
+        "n=4"
+      ],
+      [
+        "single_backup sch",
+        true,
+        "n=3"
+      ],
+      [
+        "single_vim prefer",
+        true,
+        "n=1"
+      ],
+      [
+        "single_filesystem",
+        true,
+        "n=1"
+      ]
+    ]
+  },
+  "Exp63_Determinism": {
+    "total": 5,
+    "passed": 5,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "det_I prefer vim fo",
+        true,
+        "unique=1 cat={'preference'}"
+      ],
+      [
+        "det_SSH default por",
+        true,
+        "unique=1 cat={'knowledge'}"
+      ],
+      [
+        "det_Yesterday fixed",
+        true,
+        "unique=1 cat={'episode'}"
+      ],
+      [
+        "det_Small project u",
+        true,
+        "unique=1 cat={'preference'}"
+      ],
+      [
+        "det_Not saying we c",
+        true,
+        "unique=1 cat={'preference'}"
+      ]
+    ]
+  },
+  "Exp64_Security": {
+    "total": 22,
+    "passed": 15,
+    "accuracy": 0.6818,
+    "target_met": false,
+    "details": [
+      [
+        "detect_My email is test@exa",
+        true,
+        "det=True exp=True"
+      ],
+      [
+        "detect_Password: abc123xyz",
+        false,
+        "det=False exp=True"
+      ],
+      [
+        "detect_API key: sk-12345678",
+        false,
+        "det=False exp=True"
+      ],
+      [
+        "detect_Token: ghp_xxxxxxxxx",
+        false,
+        "det=False exp=True"
+      ],
+      [
+        "detect_IP: 192.168.1.100",
+        true,
+        "det=True exp=True"
+      ],
+      [
+        "detect_Phone: 13800138000",
+        true,
+        "det=True exp=True"
+      ],
+      [
+        "detect_ID card: 11010119900",
+        true,
+        "det=True exp=True"
+      ],
+      [
+        "detect_Credit card: 4111111",
+        true,
+        "det=True exp=True"
+      ],
+      [
+        "detect_SSH key: -----BEGIN ",
+        false,
+        "det=False exp=True"
+      ],
+      [
+        "detect_Connection string: m",
+        false,
+        "det=False exp=True"
+      ],
+      [
+        "detect_AWS key: AKIAIOSFODN",
+        false,
+        "det=False exp=True"
+      ],
+      [
+        "detect_Bearer token: Bearer",
+        false,
+        "det=False exp=True"
+      ],
+      [
+        "safe_SSH default port is ",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Use Docker for deplo",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Redis cache timeout ",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Nginx config at /etc",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Python 3.11 is recom",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Git commit hash: abc",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Version 2.0.1 releas",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Error code: 404",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Port 8080 is used by",
+        true,
+        "det=False exp=False"
+      ],
+      [
+        "safe_Max connections: 100",
+        true,
+        "det=False exp=False"
+      ]
+    ]
+  },
+  "Exp66_Burst": {
+    "total": 4,
+    "passed": 2,
+    "accuracy": 0.5,
+    "target_met": false,
+    "details": [
+      [
+        "no_errors",
+        true,
+        "errors=0"
+      ],
+      [
+        "p95",
+        false,
+        "P95=1042.1ms"
+      ],
+      [
+        "p99",
+        false,
+        "P99=1743.3ms"
+      ],
+      [
+        "throughput",
+        true,
+        "208 qps"
+      ]
+    ]
+  },
+  "Exp67_CrossCat": {
+    "total": 16,
+    "passed": 13,
+    "accuracy": 0.8125,
+    "target_met": true,
+    "details": [
+      [
+        "kk_0",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "kk_1",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "kk_2",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "kk_nc_0",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "kk_nc_1",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "kk_nc_2",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "num_0",
+        false,
+        "exp=True got=False"
+      ],
+      [
+        "num_1",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "num_2",
+        false,
+        "exp=True got=False"
+      ],
+      [
+        "num_nc_0",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "num_nc_1",
+        false,
+        "exp=False got=True"
+      ],
+      [
+        "ed_0",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "ed_1",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "ed_2",
+        true,
+        "exp=True got=True"
+      ],
+      [
+        "ed_nc_0",
+        true,
+        "exp=False got=False"
+      ],
+      [
+        "ed_nc_1",
+        true,
+        "exp=False got=False"
+      ]
+    ]
+  },
+  "Exp68_Forgetting": {
+    "total": 11,
+    "passed": 11,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "init_high_imp",
+        true,
+        "R=1.00"
+      ],
+      [
+        "init_med_imp",
+        true,
+        "R=1.00"
+      ],
+      [
+        "init_low_imp",
+        true,
+        "R=1.00"
+      ],
+      [
+        "init_mtm_mem",
+        true,
+        "R=1.00"
+      ],
+      [
+        "init_ltm_mem",
+        true,
+        "R=1.00"
+      ],
+      [
+        "after_high_imp",
+        true,
+        "R=1.00 high_imp"
+      ],
+      [
+        "after_med_imp",
+        true,
+        "R=1.00"
+      ],
+      [
+        "after_low_imp",
+        true,
+        "R=0.98"
+      ],
+      [
+        "after_mtm_mem",
+        true,
+        "R=1.00"
+      ],
+      [
+        "after_ltm_mem",
+        true,
+        "R=1.00 high_imp"
+      ],
+      [
+        "scan",
+        true,
+        "keys=['forget', 'demote', 'promote', 'refresh']"
+      ]
+    ]
+  },
+  "Exp69_PrecRecall": {
+    "total": 30,
+    "passed": 30,
+    "accuracy": 1.0,
+    "target_met": true,
+    "details": [
+      [
+        "prec_ssh",
+        true,
+        "P=1.00 n=3"
+      ],
+      [
+        "prec_redis",
+        true,
+        "P=1.00 n=3"
+      ],
+      [
+        "prec_docker",
+        true,
+        "P=0.60 n=5"
+      ],
+      [
+        "prec_nginx",
+        true,
+        "P=1.00 n=3"
+      ],
+      [
+        "prec_python",
+        true,
+        "P=1.00 n=3"
+      ],
+      [
+        "prec_git",
+        true,
+        "P=1.00 n=3"
+      ],
+      [
+        "prec_mysql",
+        true,
+        "P=0.60 n=5"
+      ],
+      [
+        "prec_k8s",
+        true,
+        "P=0.60 n=5"
+      ],
+      [
+        "prec_postgres",
+        true,
+        "P=0.60 n=5"
+      ],
+      [
+        "prec_linux",
+        true,
+        "P=1.00 n=3"
+      ],
+      [
+        "rec_ssh_SSH uses p",
+        true,
+        "n=10"
+      ],
+      [
+        "rec_ssh_SSH suppor",
+        true,
+        "n=7"
+      ],
+      [
+        "rec_ssh_SSH tunnel",
+        true,
+        "n=3"
+      ],
+      [
+        "rec_redis_Redis is i",
+        true,
+        "n=8"
+      ],
+      [
+        "rec_redis_Redis port",
+        true,
+        "n=5"
+      ],
+      [
+        "rec_redis_Redis supp",
+        true,
+        "n=7"
+      ],
+      [
+        "rec_docker_Docker use",
+        true,
+        "n=10"
+      ],
+      [
+        "rec_docker_Docker con",
+        true,
+        "n=6"
+      ],
+      [
+        "rec_docker_Docker com",
+        true,
+        "n=6"
+      ],
+      [
+        "rec_nginx_Nginx is a",
+        true,
+        "n=8"
+      ],
+      [
+        "rec_nginx_Nginx reve",
+        true,
+        "n=3"
+      ],
+      [
+        "rec_nginx_Nginx load",
+        true,
+        "n=3"
+      ],
+      [
+        "rec_python_Python is ",
+        true,
+        "n=8"
+      ],
+      [
+        "rec_python_Python has",
+        true,
+        "n=6"
+      ],
+      [
+        "rec_python_Python sup",
+        true,
+        "n=7"
+      ],
+      [
+        "rec_git_Git tracks",
+        true,
+        "n=3"
+      ],
+      [
+        "rec_git_Git uses b",
+        true,
+        "n=8"
+      ],
+      [
+        "rec_git_Git merge ",
+        true,
+        "n=3"
+      ],
+      [
+        "rec_mysql_MySQL uses",
+        true,
+        "n=10"
+      ],
+      [
+        "rec_mysql_MySQL port",
+        true,
+        "n=8"
+      ]
+    ]
+  },
+  "Exp70_FullPipe": {
+    "total": 12,
+    "passed": 10,
+    "accuracy": 0.8333,
+    "target_met": true,
+    "details": [
+      [
+        "pipe_I prefer vim fo",
+        true,
+        "cat=preference pii=False exp_pii=False"
+      ],
+      [
+        "pipe_SSH default por",
+        true,
+        "cat=knowledge pii=False exp_pii=False"
+      ],
+      [
+        "pipe_Fixed MySQL slo",
+        true,
+        "cat=episode pii=False exp_pii=False"
+      ],
+      [
+        "pipe_My password is ",
+        true,
+        "cat=knowledge pii=True exp_pii=True"
+      ],
+      [
+        "pipe_User email: tes",
+        true,
+        "cat=knowledge pii=True exp_pii=True"
+      ],
+      [
+        "pipe_Redis cache tim",
+        true,
+        "cat=knowledge pii=False exp_pii=False"
+      ],
+      [
+        "pipe_I always use da",
+        true,
+        "cat=preference pii=False exp_pii=False"
+      ],
+      [
+        "pipe_Docker deployed",
+        true,
+        "cat=episode pii=False exp_pii=False"
+      ],
+      [
+        "pipe_API key: sk-abc",
+        false,
+        "cat=knowledge pii=False exp_pii=True"
+      ],
+      [
+        "pipe_Nginx config up",
+        true,
+        "cat=knowledge pii=False exp_pii=False"
+      ],
+      [
+        "conflict",
+        true,
+        "conflict=True"
+      ],
+      [
+        "stats",
+        false,
+        "total=None"
+      ]
+    ]
+  }
+}

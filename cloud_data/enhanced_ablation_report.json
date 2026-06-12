@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "timestamp": "2026-06-07 02:28:56",
+    "env": "Kylin V10 | Alibaba Cloud ECS",
+    "rounds": 3,
+    "variants": 2
+  },
+  "results": [
+    {
+      "name": "A_baseline",
+      "rounds": [
+        {
+          "round": 1,
+          "name": "Discovery",
+          "passed": 10,
+          "total": 10,
+          "rate": 1.0,
+          "retries": 5,
+          "memory_hits": 0
+        },
+        {
+          "round": 2,
+          "name": "Repeat+Complex",
+          "passed": 13,
+          "total": 13,
+          "rate": 1.0,
+          "retries": 5,
+          "memory_hits": 0
+        },
+        {
+          "round": 3,
+          "name": "Stress",
+          "passed": 15,
+          "total": 15,
+          "rate": 1.0,
+          "retries": 7,
+          "memory_hits": 0
+        }
+      ],
+      "total_retries": 17,
+      "total_mem_hits": 0,
+      "avg_latency_ms": 110.4,
+      "total_tasks": 38,
+      "total_passed": 38
+    },
+    {
+      "name": "B_memory_only",
+      "rounds": [
+        {
+          "round": 1,
+          "name": "Discovery",
+          "passed": 10,
+          "total": 10,
+          "rate": 1.0,
+          "retries": 5,
+          "memory_hits": 0
+        },
+        {
+          "round": 2,
+          "name": "Repeat+Complex",
+          "passed": 13,
+          "total": 13,
+          "rate": 1.0,
+          "retries": 5,
+          "memory_hits": 0
+        },
+        {
+          "round": 3,
+          "name": "Stress",
+          "passed": 15,
+          "total": 15,
+          "rate": 1.0,
+          "retries": 7,
+          "memory_hits": 0
+        }
+      ],
+      "total_retries": 17,
+      "total_mem_hits": 0,
+      "avg_latency_ms": 106.4,
+      "total_tasks": 38,
+      "total_passed": 38
+    }
+  ]
+}

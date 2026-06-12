@@ -1,0 +1,27 @@
+{
+  "title": "Agent Memory Decay: Theoretical Framework and Empirical Benchmark for Continuous-Time vs Discrete Models in LLM Agent Memory Systems",
+  "description": "Source code, trained models, and experimental data for the first systematic benchmark of 8 memory decay architectures for LLM agent systems. Evaluates LTC, CfC, Neural ODE, CCT-LNN, GRU, GRU+Time, Transformer, and Parametric ExpDecay across 3 datasets with 5-fold cross-validation.",
+  "creators": [
+    {
+      "name": "HanBo Wang",
+      "affiliation": "Department of Computer Science, East China Jiaotong University, Nanchang, China"
+    },
+    {
+      "name": "JiaQi Song",
+      "affiliation": "School of Information Science, Chongqing University of Posts and Telecommunications, Chongqing, China"
+    }
+  ],
+  "keywords": [
+    "agent memory",
+    "memory decay",
+    "continuous-time models",
+    "liquid neural networks",
+    "neural ODE",
+    "benchmark",
+    "LLM agents"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "upload_type": "software",
+  "doi": "10.5281/zenodo.20650214"
+}
